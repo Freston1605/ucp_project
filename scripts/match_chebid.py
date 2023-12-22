@@ -3,6 +3,7 @@ from rdkit.Chem import AllChem
 import csv
 import os
 
+
 def read_chebi_ids_from_csv(csv_file_path):
     """Read ChEBI IDs from a CSV file.
 
@@ -19,6 +20,7 @@ def read_chebi_ids_from_csv(csv_file_path):
         chebi_ids = [row[0] for row in csv_reader]
     return chebi_ids
 
+
 def read_sdf_file(input_sdf_file):
     """Read an SDF file using RDKit.
 
@@ -29,6 +31,7 @@ def read_sdf_file(input_sdf_file):
         Chem.SDMolSupplier: RDKit molecule supplier.
     """
     return Chem.SDMolSupplier(input_sdf_file)
+
 
 def write_matched_molecules_to_sdf(output_sdf_file, matched_molecules):
     """Write matched molecules to an SDF file.
@@ -41,6 +44,7 @@ def write_matched_molecules_to_sdf(output_sdf_file, matched_molecules):
     with Chem.SDWriter(output_sdf_file) as writer:
         for mol in matched_molecules:
             writer.write(mol)
+
 
 def main(input_sdf, input_csv, output="matched_molecules.sdf"):
     """Main function to process molecules and write matched molecules to an SDF file.
@@ -67,12 +71,15 @@ def main(input_sdf, input_csv, output="matched_molecules.sdf"):
             print("Output file created:", output)
 
     # Write matched molecules to the new SDF file
-    matched_molecules = [mol for mol in mol_supplier if (mol is not None and mol.GetProp("ChEBI ID").split(":")[1] in chebi_ids)]
+    matched_molecules = [
+        mol
+        for mol in mol_supplier
+        if (mol is not None and mol.GetProp("ChEBI ID").split(":")[1] in chebi_ids)
+    ]
     write_matched_molecules_to_sdf(output, matched_molecules)
 
-    print(
-        f"Finished processing molecules. Matched molecules written to '{output}'."
-    )
+    print(f"Finished processing molecules. Matched molecules written to '{output}'.")
+
 
 # Execution
 
