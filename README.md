@@ -28,14 +28,14 @@ Follow these steps to get started with the project:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/physiology-bioinformatics-project.git
-   cd physiology-bioinformatics-project
+   git clone https://github.com/Freston1605/ucp_project.git
+   cd ucp_project
    ```
 2. Create and activate the Conda environment using the requirements.txt file:
 
   ```bash
-  conda create --name [environment_name] --file requirements.txt
-  conda activate [envinronment_name]
+  conda create --name ucp_project --file requirements.txt
+  conda activate ucp_project
   ```
 ### Running the Analysis
 
