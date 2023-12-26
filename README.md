@@ -49,3 +49,7 @@ Plase check the scripts folder to see how the analysis is being made.
 - **`results/`:** Stores the output and results of the analysis.
 
 ** `data/` and `results/` folder are not present as of now, because of issues with their file size in GIT and GitHub.
+
+## Note
+
+This project is under development and it will be updated as it moves forwards.
