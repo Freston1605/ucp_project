@@ -1,0 +1,1 @@
+data/input/sdf/ChEBI_complete.sdf filter=lfs diff=lfs merge=lfs -text
