@@ -31,11 +31,11 @@ Follow these steps to get started with the project:
    git clone https://github.com/Freston1605/ucp_project.git
    cd ucp_project
    ```
-2. Create and activate the Conda environment using the requirements.txt file:
+2. Create and activate the Conda environment using the spec-file.txt file in the working directory:
 
   ```bash
-  conda create --name ucp_project --file requirements.txt
-  conda activate ucp_project
+  conda create --preffix .env/ --file spec-file
+  conda activate environment
   ```
 ### Running the Analysis
 
@@ -46,9 +46,8 @@ Plase check the scripts folder to see how the analysis is being made.
 
 - **`data/`:** Contains datasets and input files.
 - **`scripts/`:** Includes Python scripts for data analysis and processing.
+- **`notebooks/`:** Includes Jupyter Notebooks for data analysis.
 - **`results/`:** Stores the output and results of the analysis.
-
-** `data/` and `results/` folder are not present as of now, because of issues with their file size in GIT and GitHub.
 
 ## Note
 
