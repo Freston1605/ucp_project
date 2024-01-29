@@ -2,7 +2,8 @@ from rdkit import Chem
 from rdkit.Chem import SDMolSupplier
 from pathlib import Path
 
-def separate_molecules(sdf_file_path, output_dir):
+
+def separate_molecules(sdf_file_path=str, output_dir=str):
     """Separate molecules from an SDF file and save each molecule as a separate SDF file.
     Every molecule is named after its ChEBI Name and, if None, after its index in the loop.
 
@@ -25,7 +26,7 @@ def separate_molecules(sdf_file_path, output_dir):
 
             # Split and extract the ChEBI ID from the field value
             chebi_id = chebi_id.split(':')[1] if chebi_id else None
-
+            
             # If the ChEBI ID is not available, generate a default name
             if not chebi_id:
                 chebi_id = f'molecule_{index + 1}'
