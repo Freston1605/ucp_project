@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-df = pd.read_csv('data\\output\\csv\\flavonoids_data.csv', delimiter=',')
+df = pd.read_csv("data\output\csv\flavonoids_data.csv", delimiter=',')
 
 #Cambiar espacios por "_"
 df.columns = df.columns.str.replace(' ', '_')
@@ -35,5 +35,5 @@ print(f'Número de flavonoides sin identificador en Nuevo_PubChem_CID: {cantidad
 print(flavonoides_sin_CID[['ChEBI_Name']])
 
 # Guardar Data Frame
-Nuevo_flavonoids_data = 'data\output\csv\Nuevo_flavonoids_data.csv'
+Nuevo_flavonoids_data = "data\output\csv\new_flavonoids_data.csv"
 df.to_csv(Nuevo_flavonoids_data, index=False)
