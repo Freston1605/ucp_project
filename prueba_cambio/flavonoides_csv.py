@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-df = pd.read_csv(r'C:\Users\mauri\Desktop\Nuevo\ucp_project\data\output\csv\flavonoids_data.csv', delimiter=',')
+df = pd.read_csv(r'data\output\csv\flavonoids_data.csv', delimiter=',')
 
 #Cambiar espacios por "_"
 df.columns = df.columns.str.replace(' ', '_')
@@ -45,5 +45,5 @@ print(flavonoides_sin_CID[['ChEBI_Name']])
 print("________________________________________________________________________________________________")
 
 # Guardar Data Frame
-Nuevo_flavonoids_data = r'C:\Users\mauri\Desktop\Nuevo\ucp_project\data\output\csv\Nuevo_flavonoids_data.csv'
+Nuevo_flavonoids_data = r'data\output\csv\Nuevo_flavonoids_data.csv'
 df.to_csv(Nuevo_flavonoids_data, index=False)
