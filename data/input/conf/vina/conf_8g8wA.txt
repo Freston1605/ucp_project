@@ -1,0 +1,9 @@
+receptor = 8g8wA.pdbqt
+
+center_x = 202.591
+center_y = 218.522
+center_z = 201.811
+
+size_x = 38
+size_y = 44
+size_z = 64
