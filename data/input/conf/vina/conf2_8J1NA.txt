@@ -1,9 +1,0 @@
-receptor = 8j1nA.pdbqt
-
-center_x = 114.379
-center_y = 121.858
-center_z = 144.059
-
-size_x = 15
-size_y = 15
-size_z = 15
