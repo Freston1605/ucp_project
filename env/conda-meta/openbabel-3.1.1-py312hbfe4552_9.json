@@ -1,0 +1,2694 @@
+{
+  "arch": "x86_64",
+  "build": "py312hbfe4552_9",
+  "build_number": 9,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "cairo >=1.18.0,<2.0a0",
+    "libgcc-ng >=12",
+    "libstdcxx-ng >=12",
+    "libxml2 >=2.12.1,<2.13.0a0",
+    "libzlib >=1.2.13,<1.3.0a0",
+    "python >=3.12,<3.13.0a0",
+    "python_abi 3.12.* *_cp312"
+  ],
+  "extracted_package_dir": "/home/franco/miniconda3/pkgs/openbabel-3.1.1-py312hbfe4552_9",
+  "files": [
+    "bin/obabel",
+    "bin/obconformer",
+    "bin/obdistgen",
+    "bin/obenergy",
+    "bin/obfit",
+    "bin/obfitall",
+    "bin/obgen",
+    "bin/obgrep",
+    "bin/obminimize",
+    "bin/obmm",
+    "bin/obprobe",
+    "bin/obprop",
+    "bin/obrms",
+    "bin/obrotamer",
+    "bin/obrotate",
+    "bin/obspectrophore",
+    "bin/obsym",
+    "bin/obtautomer",
+    "bin/obthermo",
+    "bin/roundtrip",
+    "include/inchi/inchi_api.h",
+    "include/openbabel3/LBFGS.h",
+    "include/openbabel3/LBFGS/LineSearchBacktracking.h",
+    "include/openbabel3/LBFGS/LineSearchBracketing.h",
+    "include/openbabel3/LBFGS/LineSearchNocedalWright.h",
+    "include/openbabel3/LBFGS/Param.h",
+    "include/openbabel3/openbabel/alias.h",
+    "include/openbabel3/openbabel/atom.h",
+    "include/openbabel3/openbabel/babelconfig.h",
+    "include/openbabel3/openbabel/base.h",
+    "include/openbabel3/openbabel/bitvec.h",
+    "include/openbabel3/openbabel/bond.h",
+    "include/openbabel3/openbabel/bondtyper.h",
+    "include/openbabel3/openbabel/builder.h",
+    "include/openbabel3/openbabel/canon.h",
+    "include/openbabel3/openbabel/chains.h",
+    "include/openbabel3/openbabel/chargemodel.h",
+    "include/openbabel3/openbabel/chemdrawcdx.h",
+    "include/openbabel3/openbabel/conformersearch.h",
+    "include/openbabel3/openbabel/data.h",
+    "include/openbabel3/openbabel/data_utilities.h",
+    "include/openbabel3/openbabel/depict/asciipainter.h",
+    "include/openbabel3/openbabel/depict/cairopainter.h",
+    "include/openbabel3/openbabel/depict/commandpainter.h",
+    "include/openbabel3/openbabel/depict/depict.h",
+    "include/openbabel3/openbabel/depict/painter.h",
+    "include/openbabel3/openbabel/depict/svgpainter.h",
+    "include/openbabel3/openbabel/descriptor.h",
+    "include/openbabel3/openbabel/distgeom.h",
+    "include/openbabel3/openbabel/dlhandler.h",
+    "include/openbabel3/openbabel/elements.h",
+    "include/openbabel3/openbabel/fingerprint.h",
+    "include/openbabel3/openbabel/forcefield.h",
+    "include/openbabel3/openbabel/format.h",
+    "include/openbabel3/openbabel/generic.h",
+    "include/openbabel3/openbabel/graphsym.h",
+    "include/openbabel3/openbabel/grid.h",
+    "include/openbabel3/openbabel/griddata.h",
+    "include/openbabel3/openbabel/groupcontrib.h",
+    "include/openbabel3/openbabel/inchiformat.h",
+    "include/openbabel3/openbabel/internalcoord.h",
+    "include/openbabel3/openbabel/isomorphism.h",
+    "include/openbabel3/openbabel/json.h",
+    "include/openbabel3/openbabel/kekulize.h",
+    "include/openbabel3/openbabel/kinetics.h",
+    "include/openbabel3/openbabel/lineend.h",
+    "include/openbabel3/openbabel/locale.h",
+    "include/openbabel3/openbabel/math/align.h",
+    "include/openbabel3/openbabel/math/erf.h",
+    "include/openbabel3/openbabel/math/matrix3x3.h",
+    "include/openbabel3/openbabel/math/spacegroup.h",
+    "include/openbabel3/openbabel/math/transform3d.h",
+    "include/openbabel3/openbabel/math/vector3.h",
+    "include/openbabel3/openbabel/matrix.h",
+    "include/openbabel3/openbabel/mcdlutil.h",
+    "include/openbabel3/openbabel/mol.h",
+    "include/openbabel3/openbabel/molchrg.h",
+    "include/openbabel3/openbabel/obconversion.h",
+    "include/openbabel3/openbabel/oberror.h",
+    "include/openbabel3/openbabel/obfunctions.h",
+    "include/openbabel3/openbabel/obiter.h",
+    "include/openbabel3/openbabel/obmolecformat.h",
+    "include/openbabel3/openbabel/obutil.h",
+    "include/openbabel3/openbabel/op.h",
+    "include/openbabel3/openbabel/optransform.h",
+    "include/openbabel3/openbabel/parsmart.h",
+    "include/openbabel3/openbabel/patty.h",
+    "include/openbabel3/openbabel/phmodel.h",
+    "include/openbabel3/openbabel/plugin.h",
+    "include/openbabel3/openbabel/pointgroup.h",
+    "include/openbabel3/openbabel/query.h",
+    "include/openbabel3/openbabel/reaction.h",
+    "include/openbabel3/openbabel/reactionfacade.h",
+    "include/openbabel3/openbabel/residue.h",
+    "include/openbabel3/openbabel/ring.h",
+    "include/openbabel3/openbabel/rotamer.h",
+    "include/openbabel3/openbabel/rotor.h",
+    "include/openbabel3/openbabel/shared_ptr.h",
+    "include/openbabel3/openbabel/spectrophore.h",
+    "include/openbabel3/openbabel/stereo/bindings.h",
+    "include/openbabel3/openbabel/stereo/cistrans.h",
+    "include/openbabel3/openbabel/stereo/squareplanar.h",
+    "include/openbabel3/openbabel/stereo/stereo.h",
+    "include/openbabel3/openbabel/stereo/tetrahedral.h",
+    "include/openbabel3/openbabel/stereo/tetranonplanar.h",
+    "include/openbabel3/openbabel/stereo/tetraplanar.h",
+    "include/openbabel3/openbabel/tautomer.h",
+    "include/openbabel3/openbabel/text.h",
+    "include/openbabel3/openbabel/tokenst.h",
+    "include/openbabel3/openbabel/typer.h",
+    "include/openbabel3/openbabel/xml.h",
+    "lib/cmake/openbabel3/OpenBabel3Config.cmake",
+    "lib/cmake/openbabel3/OpenBabel3ConfigVersion.cmake",
+    "lib/cmake/openbabel3/OpenBabel3_EXPORTS-release.cmake",
+    "lib/cmake/openbabel3/OpenBabel3_EXPORTS.cmake",
+    "lib/libinchi.so",
+    "lib/libinchi.so.0",
+    "lib/libinchi.so.0.4.1",
+    "lib/libopenbabel.so",
+    "lib/libopenbabel.so.7",
+    "lib/libopenbabel.so.7.0.0",
+    "lib/openbabel/3.1.0/APIInterface.so",
+    "lib/openbabel/3.1.0/CSRformat.so",
+    "lib/openbabel/3.1.0/MCDLformat.so",
+    "lib/openbabel/3.1.0/MNAformat.so",
+    "lib/openbabel/3.1.0/PQSformat.so",
+    "lib/openbabel/3.1.0/abinitformat.so",
+    "lib/openbabel/3.1.0/acesformat.so",
+    "lib/openbabel/3.1.0/acrformat.so",
+    "lib/openbabel/3.1.0/adfformat.so",
+    "lib/openbabel/3.1.0/alchemyformat.so",
+    "lib/openbabel/3.1.0/amberformat.so",
+    "lib/openbabel/3.1.0/aoforceformat.so",
+    "lib/openbabel/3.1.0/asciiformat.so",
+    "lib/openbabel/3.1.0/balstformat.so",
+    "lib/openbabel/3.1.0/bgfformat.so",
+    "lib/openbabel/3.1.0/boxformat.so",
+    "lib/openbabel/3.1.0/cacaoformat.so",
+    "lib/openbabel/3.1.0/cacheformat.so",
+    "lib/openbabel/3.1.0/carformat.so",
+    "lib/openbabel/3.1.0/castepformat.so",
+    "lib/openbabel/3.1.0/cccformat.so",
+    "lib/openbabel/3.1.0/cdxmlformat.so",
+    "lib/openbabel/3.1.0/chem3dformat.so",
+    "lib/openbabel/3.1.0/chemdoodlejsonformat.so",
+    "lib/openbabel/3.1.0/chemdrawcdx.so",
+    "lib/openbabel/3.1.0/chemdrawct.so",
+    "lib/openbabel/3.1.0/chemkinformat.so",
+    "lib/openbabel/3.1.0/chemtoolformat.so",
+    "lib/openbabel/3.1.0/cifformat.so",
+    "lib/openbabel/3.1.0/cmlformat.so",
+    "lib/openbabel/3.1.0/cmlreactformat.so",
+    "lib/openbabel/3.1.0/cofformat.so",
+    "lib/openbabel/3.1.0/confabreport.so",
+    "lib/openbabel/3.1.0/copyformat.so",
+    "lib/openbabel/3.1.0/crkformat.so",
+    "lib/openbabel/3.1.0/crystal09format.so",
+    "lib/openbabel/3.1.0/cssrformat.so",
+    "lib/openbabel/3.1.0/daltonformat.so",
+    "lib/openbabel/3.1.0/dlpolyformat.so",
+    "lib/openbabel/3.1.0/dmolformat.so",
+    "lib/openbabel/3.1.0/exyzformat.so",
+    "lib/openbabel/3.1.0/fastaformat.so",
+    "lib/openbabel/3.1.0/fastsearchformat.so",
+    "lib/openbabel/3.1.0/fchkformat.so",
+    "lib/openbabel/3.1.0/featformat.so",
+    "lib/openbabel/3.1.0/fhformat.so",
+    "lib/openbabel/3.1.0/fhiaimsformat.so",
+    "lib/openbabel/3.1.0/fingerprintformat.so",
+    "lib/openbabel/3.1.0/fpsformat.so",
+    "lib/openbabel/3.1.0/freefracformat.so",
+    "lib/openbabel/3.1.0/gamessformat.so",
+    "lib/openbabel/3.1.0/gamessukformat.so",
+    "lib/openbabel/3.1.0/gausscubeformat.so",
+    "lib/openbabel/3.1.0/gaussformat.so",
+    "lib/openbabel/3.1.0/gausszmatformat.so",
+    "lib/openbabel/3.1.0/ghemicalformat.so",
+    "lib/openbabel/3.1.0/groformat.so",
+    "lib/openbabel/3.1.0/gromos96format.so",
+    "lib/openbabel/3.1.0/gulpformat.so",
+    "lib/openbabel/3.1.0/hinformat.so",
+    "lib/openbabel/3.1.0/inchiformat.so",
+    "lib/openbabel/3.1.0/jaguarformat.so",
+    "lib/openbabel/3.1.0/lmpdatformat.so",
+    "lib/openbabel/3.1.0/lpmdformat.so",
+    "lib/openbabel/3.1.0/mdffformat.so",
+    "lib/openbabel/3.1.0/mdlformat.so",
+    "lib/openbabel/3.1.0/mmcifformat.so",
+    "lib/openbabel/3.1.0/mmodformat.so",
+    "lib/openbabel/3.1.0/mol2format.so",
+    "lib/openbabel/3.1.0/moldenformat.so",
+    "lib/openbabel/3.1.0/molproformat.so",
+    "lib/openbabel/3.1.0/molreport.so",
+    "lib/openbabel/3.1.0/mopacformat.so",
+    "lib/openbabel/3.1.0/mpdformat.so",
+    "lib/openbabel/3.1.0/mpqcformat.so",
+    "lib/openbabel/3.1.0/msiformat.so",
+    "lib/openbabel/3.1.0/msmsformat.so",
+    "lib/openbabel/3.1.0/nulformat.so",
+    "lib/openbabel/3.1.0/nwchemformat.so",
+    "lib/openbabel/3.1.0/opendxformat.so",
+    "lib/openbabel/3.1.0/orcaformat.so",
+    "lib/openbabel/3.1.0/outformat.so",
+    "lib/openbabel/3.1.0/painterformat.so",
+    "lib/openbabel/3.1.0/pcmodelformat.so",
+    "lib/openbabel/3.1.0/pdbformat.so",
+    "lib/openbabel/3.1.0/pdbqtformat.so",
+    "lib/openbabel/3.1.0/plugin_charges.so",
+    "lib/openbabel/3.1.0/plugin_descriptors.so",
+    "lib/openbabel/3.1.0/plugin_fingerprints.so",
+    "lib/openbabel/3.1.0/plugin_forcefields.so",
+    "lib/openbabel/3.1.0/plugin_ops.so",
+    "lib/openbabel/3.1.0/png2format.so",
+    "lib/openbabel/3.1.0/pngformat.so",
+    "lib/openbabel/3.1.0/pointcloudformat.so",
+    "lib/openbabel/3.1.0/posformat.so",
+    "lib/openbabel/3.1.0/povrayformat.so",
+    "lib/openbabel/3.1.0/pqrformat.so",
+    "lib/openbabel/3.1.0/pubchem.so",
+    "lib/openbabel/3.1.0/pubchemjsonformat.so",
+    "lib/openbabel/3.1.0/pwscfformat.so",
+    "lib/openbabel/3.1.0/qchemformat.so",
+    "lib/openbabel/3.1.0/reportformat.so",
+    "lib/openbabel/3.1.0/rinchiformat.so",
+    "lib/openbabel/3.1.0/rsmiformat.so",
+    "lib/openbabel/3.1.0/rxnformat.so",
+    "lib/openbabel/3.1.0/shelxformat.so",
+    "lib/openbabel/3.1.0/siestaformat.so",
+    "lib/openbabel/3.1.0/smilesformat.so",
+    "lib/openbabel/3.1.0/smileyformat.so",
+    "lib/openbabel/3.1.0/stlformat.so",
+    "lib/openbabel/3.1.0/svgformat.so",
+    "lib/openbabel/3.1.0/textformat.so",
+    "lib/openbabel/3.1.0/thermoformat.so",
+    "lib/openbabel/3.1.0/tinkerformat.so",
+    "lib/openbabel/3.1.0/titleformat.so",
+    "lib/openbabel/3.1.0/turbomoleformat.so",
+    "lib/openbabel/3.1.0/unichemformat.so",
+    "lib/openbabel/3.1.0/vaspformat.so",
+    "lib/openbabel/3.1.0/viewmolformat.so",
+    "lib/openbabel/3.1.0/wlnformat.so",
+    "lib/openbabel/3.1.0/xedformat.so",
+    "lib/openbabel/3.1.0/xmlformat.so",
+    "lib/openbabel/3.1.0/xsfformat.so",
+    "lib/openbabel/3.1.0/xtcformat.so",
+    "lib/openbabel/3.1.0/xyzformat.so",
+    "lib/openbabel/3.1.0/yasaraformat.so",
+    "lib/openbabel/3.1.0/zindoformat.so",
+    "lib/pkgconfig/openbabel-3.pc",
+    "lib/python3.12/site-packages/openbabel/__init__.py",
+    "lib/python3.12/site-packages/openbabel/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/openbabel/__pycache__/openbabel.cpython-312.pyc",
+    "lib/python3.12/site-packages/openbabel/__pycache__/pybel.cpython-312.pyc",
+    "lib/python3.12/site-packages/openbabel/_openbabel.so",
+    "lib/python3.12/site-packages/openbabel/openbabel.py",
+    "lib/python3.12/site-packages/openbabel/pybel.py",
+    "share/man/man1/obabel.1",
+    "share/man/man1/obchiral.1",
+    "share/man/man1/obconformer.1",
+    "share/man/man1/obdistgen.1",
+    "share/man/man1/obenergy.1",
+    "share/man/man1/obfit.1",
+    "share/man/man1/obgen.1",
+    "share/man/man1/obgrep.1",
+    "share/man/man1/obgui.1",
+    "share/man/man1/obminimize.1",
+    "share/man/man1/obprobe.1",
+    "share/man/man1/obprop.1",
+    "share/man/man1/obrms.1",
+    "share/man/man1/obrotamer.1",
+    "share/man/man1/obrotate.1",
+    "share/man/man1/obspectrophore.1",
+    "share/man/man1/obsym.1",
+    "share/man/man1/obtautomer.1",
+    "share/man/man1/obthermo.1",
+    "share/man/man1/roundtrip.1",
+    "share/openbabel/3.1.0/MACCS.txt",
+    "share/openbabel/3.1.0/SMARTS_InteLigand.txt",
+    "share/openbabel/3.1.0/UFF.prm",
+    "share/openbabel/3.1.0/atomization-energies.txt",
+    "share/openbabel/3.1.0/atomtyp.txt",
+    "share/openbabel/3.1.0/babel_povray3.inc",
+    "share/openbabel/3.1.0/bondtyp.txt",
+    "share/openbabel/3.1.0/eem.txt",
+    "share/openbabel/3.1.0/eem2015ba.txt",
+    "share/openbabel/3.1.0/eem2015bm.txt",
+    "share/openbabel/3.1.0/eem2015bn.txt",
+    "share/openbabel/3.1.0/eem2015ha.txt",
+    "share/openbabel/3.1.0/eem2015hm.txt",
+    "share/openbabel/3.1.0/eem2015hn.txt",
+    "share/openbabel/3.1.0/eqeqIonizations.txt",
+    "share/openbabel/3.1.0/gaff.dat",
+    "share/openbabel/3.1.0/gaff.prm",
+    "share/openbabel/3.1.0/ghemical.prm",
+    "share/openbabel/3.1.0/logp.txt",
+    "share/openbabel/3.1.0/mmff94.ff",
+    "share/openbabel/3.1.0/mmff94s.ff",
+    "share/openbabel/3.1.0/mmffang.par",
+    "share/openbabel/3.1.0/mmffbndk.par",
+    "share/openbabel/3.1.0/mmffbond.par",
+    "share/openbabel/3.1.0/mmffchg.par",
+    "share/openbabel/3.1.0/mmffdef.par",
+    "share/openbabel/3.1.0/mmffdfsb.par",
+    "share/openbabel/3.1.0/mmffoop.par",
+    "share/openbabel/3.1.0/mmffpbci.par",
+    "share/openbabel/3.1.0/mmffprop.par",
+    "share/openbabel/3.1.0/mmffs_oop.par",
+    "share/openbabel/3.1.0/mmffs_tor.par",
+    "share/openbabel/3.1.0/mmffstbn.par",
+    "share/openbabel/3.1.0/mmfftor.par",
+    "share/openbabel/3.1.0/mmffvdw.par",
+    "share/openbabel/3.1.0/mpC.txt",
+    "share/openbabel/3.1.0/mr.txt",
+    "share/openbabel/3.1.0/patterns.txt",
+    "share/openbabel/3.1.0/phmodel.txt",
+    "share/openbabel/3.1.0/plugindefines.txt",
+    "share/openbabel/3.1.0/psa.txt",
+    "share/openbabel/3.1.0/qeq.txt",
+    "share/openbabel/3.1.0/resdata.txt",
+    "share/openbabel/3.1.0/rigid-fragments-index.txt",
+    "share/openbabel/3.1.0/rigid-fragments.txt",
+    "share/openbabel/3.1.0/ring-fragments.txt",
+    "share/openbabel/3.1.0/ringtyp.txt",
+    "share/openbabel/3.1.0/space-groups.txt",
+    "share/openbabel/3.1.0/splash.png",
+    "share/openbabel/3.1.0/superatom.txt",
+    "share/openbabel/3.1.0/svgformat.script",
+    "share/openbabel/3.1.0/templates.sdf",
+    "share/openbabel/3.1.0/torlib.txt",
+    "share/openbabel/3.1.0/torsion.txt",
+    "share/openbabel/3.1.0/types.txt"
+  ],
+  "fn": "openbabel-3.1.1-py312hbfe4552_9.conda",
+  "license": "GPL-2.0-only",
+  "license_family": "GPL",
+  "link": {
+    "source": "/home/franco/miniconda3/pkgs/openbabel-3.1.1-py312hbfe4552_9",
+    "type": 1
+  },
+  "md5": "ee90095bf561ca94b55283643200bd9b",
+  "name": "openbabel",
+  "package_tarball_full_path": "/home/franco/miniconda3/pkgs/openbabel-3.1.1-py312hbfe4552_9.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/obabel",
+        "path_type": "hardlink",
+        "sha256": "763574be7ac40f5ece8ca4b186aaf70246915614447eca518b3be87b901d724e",
+        "sha256_in_prefix": "763574be7ac40f5ece8ca4b186aaf70246915614447eca518b3be87b901d724e",
+        "size_in_bytes": 41624
+      },
+      {
+        "_path": "bin/obconformer",
+        "path_type": "hardlink",
+        "sha256": "231c61770d9e83c664ca4aca309df850465920d10f390ef436d928b12754754f",
+        "sha256_in_prefix": "231c61770d9e83c664ca4aca309df850465920d10f390ef436d928b12754754f",
+        "size_in_bytes": 23848
+      },
+      {
+        "_path": "bin/obdistgen",
+        "path_type": "hardlink",
+        "sha256": "c9d5956e7a4090aaf6116b1cd2c9f919f0d18fe4fc8c32b92f024b3091096f13",
+        "sha256_in_prefix": "c9d5956e7a4090aaf6116b1cd2c9f919f0d18fe4fc8c32b92f024b3091096f13",
+        "size_in_bytes": 24328
+      },
+      {
+        "_path": "bin/obenergy",
+        "path_type": "hardlink",
+        "sha256": "54066183cc9a9927202726be8bdf7e73f7bf30fdbaa0313f93ee2f7b527d79f0",
+        "sha256_in_prefix": "54066183cc9a9927202726be8bdf7e73f7bf30fdbaa0313f93ee2f7b527d79f0",
+        "size_in_bytes": 24272
+      },
+      {
+        "_path": "bin/obfit",
+        "path_type": "hardlink",
+        "sha256": "b95f71a2dfc7fb2ed5c626fb24e2b2329e4659f751bf17de14c5600b6af61798",
+        "sha256_in_prefix": "b95f71a2dfc7fb2ed5c626fb24e2b2329e4659f751bf17de14c5600b6af61798",
+        "size_in_bytes": 37400
+      },
+      {
+        "_path": "bin/obfitall",
+        "path_type": "hardlink",
+        "sha256": "dd3b0a99fadcef41684cffa2f0066293e3f3c054a67396f898126934b6bde520",
+        "sha256_in_prefix": "dd3b0a99fadcef41684cffa2f0066293e3f3c054a67396f898126934b6bde520",
+        "size_in_bytes": 33200
+      },
+      {
+        "_path": "bin/obgen",
+        "path_type": "hardlink",
+        "sha256": "2bc8967fe041c1226ad4f4c539f331556bc498b114d502e887acbcb7e4e2a1db",
+        "sha256_in_prefix": "2bc8967fe041c1226ad4f4c539f331556bc498b114d502e887acbcb7e4e2a1db",
+        "size_in_bytes": 29096
+      },
+      {
+        "_path": "bin/obgrep",
+        "path_type": "hardlink",
+        "sha256": "90d0e60a6450823128100fe889a380b37082e504eb4ed6e0a3ff380f6e20a056",
+        "sha256_in_prefix": "90d0e60a6450823128100fe889a380b37082e504eb4ed6e0a3ff380f6e20a056",
+        "size_in_bytes": 24328
+      },
+      {
+        "_path": "bin/obminimize",
+        "path_type": "hardlink",
+        "sha256": "b2e6dbdc571be65280f16b2cdcd1f602d7cebbe489834fe6c7b8daf4fd5aa652",
+        "sha256_in_prefix": "b2e6dbdc571be65280f16b2cdcd1f602d7cebbe489834fe6c7b8daf4fd5aa652",
+        "size_in_bytes": 33496
+      },
+      {
+        "_path": "bin/obmm",
+        "path_type": "hardlink",
+        "sha256": "0d813ed17fe5fc2b7bbb072781ed570247dac25e6ee46015b050ecf9d2fe72c7",
+        "sha256_in_prefix": "0d813ed17fe5fc2b7bbb072781ed570247dac25e6ee46015b050ecf9d2fe72c7",
+        "size_in_bytes": 41400
+      },
+      {
+        "_path": "bin/obprobe",
+        "path_type": "hardlink",
+        "sha256": "3e58f06d902f3f075e6de03a486f958824ecbbf26de003fcd16212ebeeeccd46",
+        "sha256_in_prefix": "3e58f06d902f3f075e6de03a486f958824ecbbf26de003fcd16212ebeeeccd46",
+        "size_in_bytes": 34216
+      },
+      {
+        "_path": "bin/obprop",
+        "path_type": "hardlink",
+        "sha256": "23d0b06ef04e7c9d420ddfca359abb574182f641727fa7e9049687f6afd1690c",
+        "sha256_in_prefix": "23d0b06ef04e7c9d420ddfca359abb574182f641727fa7e9049687f6afd1690c",
+        "size_in_bytes": 33296
+      },
+      {
+        "_path": "bin/obrms",
+        "path_type": "hardlink",
+        "sha256": "342e9b9f1050965a4be555473d407b16e2e598d8f73a0ec3ff33558d64ed804f",
+        "sha256_in_prefix": "342e9b9f1050965a4be555473d407b16e2e598d8f73a0ec3ff33558d64ed804f",
+        "size_in_bytes": 45080
+      },
+      {
+        "_path": "bin/obrotamer",
+        "path_type": "hardlink",
+        "sha256": "2f1013b2d941c459a9e34248e1c0049f86ac638b122c1f3721e65fee2a4c351c",
+        "sha256_in_prefix": "2f1013b2d941c459a9e34248e1c0049f86ac638b122c1f3721e65fee2a4c351c",
+        "size_in_bytes": 37376
+      },
+      {
+        "_path": "bin/obrotate",
+        "path_type": "hardlink",
+        "sha256": "333706085f64d9205a3960c64be2d6883ea58c04c0f59c1e2e18e923a02a54db",
+        "sha256_in_prefix": "333706085f64d9205a3960c64be2d6883ea58c04c0f59c1e2e18e923a02a54db",
+        "size_in_bytes": 27656
+      },
+      {
+        "_path": "bin/obspectrophore",
+        "path_type": "hardlink",
+        "sha256": "9750bdfc643041a8e003f1a321efac0e1353ec7c79826051d149fe48a1316576",
+        "sha256_in_prefix": "9750bdfc643041a8e003f1a321efac0e1353ec7c79826051d149fe48a1316576",
+        "size_in_bytes": 74664
+      },
+      {
+        "_path": "bin/obsym",
+        "path_type": "hardlink",
+        "sha256": "11ef4385da79fbd1ade929aab265b0de63af14fd3374b5c383e4f8762c808e5a",
+        "sha256_in_prefix": "11ef4385da79fbd1ade929aab265b0de63af14fd3374b5c383e4f8762c808e5a",
+        "size_in_bytes": 22808
+      },
+      {
+        "_path": "bin/obtautomer",
+        "path_type": "hardlink",
+        "sha256": "f0a2f9a747bf746f0d6198a696483f825cd3f8cd6cc23677b2418bf2a13f56df",
+        "sha256_in_prefix": "f0a2f9a747bf746f0d6198a696483f825cd3f8cd6cc23677b2418bf2a13f56df",
+        "size_in_bytes": 23872
+      },
+      {
+        "_path": "bin/obthermo",
+        "path_type": "hardlink",
+        "sha256": "92d1eb1539835df917fcbe48a00f93f3a759e843650d431ac4807c0441be3a11",
+        "sha256_in_prefix": "92d1eb1539835df917fcbe48a00f93f3a759e843650d431ac4807c0441be3a11",
+        "size_in_bytes": 23304
+      },
+      {
+        "_path": "bin/roundtrip",
+        "path_type": "hardlink",
+        "sha256": "b21b18f16224e90ffe18dd3b626e9ab63b5bed94897aca9342501b6f21456b63",
+        "sha256_in_prefix": "b21b18f16224e90ffe18dd3b626e9ab63b5bed94897aca9342501b6f21456b63",
+        "size_in_bytes": 27296
+      },
+      {
+        "_path": "include/inchi/inchi_api.h",
+        "path_type": "hardlink",
+        "sha256": "c521a0fd39b4bf56b3be76e09d107f4191c4d42d1a79d37770495c62c1142982",
+        "sha256_in_prefix": "c521a0fd39b4bf56b3be76e09d107f4191c4d42d1a79d37770495c62c1142982",
+        "size_in_bytes": 55177
+      },
+      {
+        "_path": "include/openbabel3/LBFGS.h",
+        "path_type": "hardlink",
+        "sha256": "e8b9d2aaba3936e24088a402d30dfb433ea24a35081b97bab6351d5b61e9da3e",
+        "sha256_in_prefix": "e8b9d2aaba3936e24088a402d30dfb433ea24a35081b97bab6351d5b61e9da3e",
+        "size_in_bytes": 5765
+      },
+      {
+        "_path": "include/openbabel3/LBFGS/LineSearchBacktracking.h",
+        "path_type": "hardlink",
+        "sha256": "bf2d6ce64fce2c2cb2768c11b92a005cff3ac6b3cb66fdb4ecdcc4589495e2ad",
+        "sha256_in_prefix": "bf2d6ce64fce2c2cb2768c11b92a005cff3ac6b3cb66fdb4ecdcc4589495e2ad",
+        "size_in_bytes": 3893
+      },
+      {
+        "_path": "include/openbabel3/LBFGS/LineSearchBracketing.h",
+        "path_type": "hardlink",
+        "sha256": "807f542f2c4f51163af1e93e378105ea93975833d0474a2eca8972562d273997",
+        "sha256_in_prefix": "807f542f2c4f51163af1e93e378105ea93975833d0474a2eca8972562d273997",
+        "size_in_bytes": 4239
+      },
+      {
+        "_path": "include/openbabel3/LBFGS/LineSearchNocedalWright.h",
+        "path_type": "hardlink",
+        "sha256": "0c0be404ff482c2e12306320be1bc68f31a4268bf676905df8b95524f7ce758c",
+        "sha256_in_prefix": "0c0be404ff482c2e12306320be1bc68f31a4268bf676905df8b95524f7ce758c",
+        "size_in_bytes": 6264
+      },
+      {
+        "_path": "include/openbabel3/LBFGS/Param.h",
+        "path_type": "hardlink",
+        "sha256": "a30b2d1d3c46a12a988120f571d76597677a613e20f1c24f91fa55dea4887a19",
+        "sha256_in_prefix": "a30b2d1d3c46a12a988120f571d76597677a613e20f1c24f91fa55dea4887a19",
+        "size_in_bytes": 7743
+      },
+      {
+        "_path": "include/openbabel3/openbabel/alias.h",
+        "path_type": "hardlink",
+        "sha256": "d6a0023776269eae208ebd27eda6380e39d7370051b940ef77bd349e35769472",
+        "sha256_in_prefix": "d6a0023776269eae208ebd27eda6380e39d7370051b940ef77bd349e35769472",
+        "size_in_bytes": 4440
+      },
+      {
+        "_path": "include/openbabel3/openbabel/atom.h",
+        "path_type": "hardlink",
+        "sha256": "1effcb5b6791d68cc34ba0db9cfe8f397c6712915a991b310cdcf0040ed202c3",
+        "sha256_in_prefix": "1effcb5b6791d68cc34ba0db9cfe8f397c6712915a991b310cdcf0040ed202c3",
+        "size_in_bytes": 20758
+      },
+      {
+        "_path": "include/openbabel3/openbabel/babelconfig.h",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/openbabel_1701376235703/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "f8eaf93c783621c5dc6a1e8f41e26d3f69732e214b9aa86d4ea0c1c4afabf89c",
+        "sha256_in_prefix": "e66d4e3fff7111ce764030af6fa9fe86a80ff693dc697524c6e82458f8de6f77",
+        "size_in_bytes": 4932
+      },
+      {
+        "_path": "include/openbabel3/openbabel/base.h",
+        "path_type": "hardlink",
+        "sha256": "fc708b6ae24047b9cb56a165fe37d600d19cf05f86c6299218b821d1e16e7733",
+        "sha256_in_prefix": "fc708b6ae24047b9cb56a165fe37d600d19cf05f86c6299218b821d1e16e7733",
+        "size_in_bytes": 13356
+      },
+      {
+        "_path": "include/openbabel3/openbabel/bitvec.h",
+        "path_type": "hardlink",
+        "sha256": "07c30ed71968fb14aa24d9d61a93663ae76b4d84d749a94963b85716cd7e4096",
+        "sha256_in_prefix": "07c30ed71968fb14aa24d9d61a93663ae76b4d84d749a94963b85716cd7e4096",
+        "size_in_bytes": 9029
+      },
+      {
+        "_path": "include/openbabel3/openbabel/bond.h",
+        "path_type": "hardlink",
+        "sha256": "5f5410bc9ffb8f34ed92801e18c66484467e27cb42103b9037ccf2123cef5bd1",
+        "sha256_in_prefix": "5f5410bc9ffb8f34ed92801e18c66484467e27cb42103b9037ccf2123cef5bd1",
+        "size_in_bytes": 11923
+      },
+      {
+        "_path": "include/openbabel3/openbabel/bondtyper.h",
+        "path_type": "hardlink",
+        "sha256": "b34293bc721c0cd8cea11f4771f30425705b754762edb325e849e93a33963983",
+        "sha256_in_prefix": "b34293bc721c0cd8cea11f4771f30425705b754762edb325e849e93a33963983",
+        "size_in_bytes": 1795
+      },
+      {
+        "_path": "include/openbabel3/openbabel/builder.h",
+        "path_type": "hardlink",
+        "sha256": "b22696433e9b7b19e9b9a38955b0600ae0c2100c5210cdafbea60e87cbddf6d3",
+        "sha256_in_prefix": "b22696433e9b7b19e9b9a38955b0600ae0c2100c5210cdafbea60e87cbddf6d3",
+        "size_in_bytes": 8775
+      },
+      {
+        "_path": "include/openbabel3/openbabel/canon.h",
+        "path_type": "hardlink",
+        "sha256": "118d826cb57a58d83fac5a9968e50545912c6df71b909fd8c0a316bead367052",
+        "sha256_in_prefix": "118d826cb57a58d83fac5a9968e50545912c6df71b909fd8c0a316bead367052",
+        "size_in_bytes": 2257
+      },
+      {
+        "_path": "include/openbabel3/openbabel/chains.h",
+        "path_type": "hardlink",
+        "sha256": "83b75161d8a2dba3987e3fce393efb448e4b74257293fba733b64c5b5bbe1924",
+        "sha256_in_prefix": "83b75161d8a2dba3987e3fce393efb448e4b74257293fba733b64c5b5bbe1924",
+        "size_in_bytes": 11398
+      },
+      {
+        "_path": "include/openbabel3/openbabel/chargemodel.h",
+        "path_type": "hardlink",
+        "sha256": "caed1af51b6a19f4876b9247617005a39e2cc56200fb7ef9e5025d46c0552e65",
+        "sha256_in_prefix": "caed1af51b6a19f4876b9247617005a39e2cc56200fb7ef9e5025d46c0552e65",
+        "size_in_bytes": 4914
+      },
+      {
+        "_path": "include/openbabel3/openbabel/chemdrawcdx.h",
+        "path_type": "hardlink",
+        "sha256": "b17feb15a2c6593349f3d7707e8b5e772886113ee1cd7d149eb871a2293d49ee",
+        "sha256_in_prefix": "b17feb15a2c6593349f3d7707e8b5e772886113ee1cd7d149eb871a2293d49ee",
+        "size_in_bytes": 46675
+      },
+      {
+        "_path": "include/openbabel3/openbabel/conformersearch.h",
+        "path_type": "hardlink",
+        "sha256": "1a9b14146c6307aa602a8c0b8f5c92c86f4cabfe46fde674d12569792cc20093",
+        "sha256_in_prefix": "1a9b14146c6307aa602a8c0b8f5c92c86f4cabfe46fde674d12569792cc20093",
+        "size_in_bytes": 24896
+      },
+      {
+        "_path": "include/openbabel3/openbabel/data.h",
+        "path_type": "hardlink",
+        "sha256": "7c4ae56facc6dfdb167e2c53c6d1b573492c41b59ca44489b58c5c56fa9e17f7",
+        "sha256_in_prefix": "7c4ae56facc6dfdb167e2c53c6d1b573492c41b59ca44489b58c5c56fa9e17f7",
+        "size_in_bytes": 10811
+      },
+      {
+        "_path": "include/openbabel3/openbabel/data_utilities.h",
+        "path_type": "hardlink",
+        "sha256": "985961f9da8aac505538b19156677c82a85ce4af85c37096de1aee6a47f17748",
+        "sha256_in_prefix": "985961f9da8aac505538b19156677c82a85ce4af85c37096de1aee6a47f17748",
+        "size_in_bytes": 2949
+      },
+      {
+        "_path": "include/openbabel3/openbabel/depict/asciipainter.h",
+        "path_type": "hardlink",
+        "sha256": "74762fe41f47f695bbc4edd5674aacebc2ba67a3b98323604b6e8b85e3228ef2",
+        "sha256_in_prefix": "74762fe41f47f695bbc4edd5674aacebc2ba67a3b98323604b6e8b85e3228ef2",
+        "size_in_bytes": 2440
+      },
+      {
+        "_path": "include/openbabel3/openbabel/depict/cairopainter.h",
+        "path_type": "hardlink",
+        "sha256": "36d6d5d5d32d185cffa5b29d4579992cd6544824236ebfbe2c612c23b0c1efe3",
+        "sha256_in_prefix": "36d6d5d5d32d185cffa5b29d4579992cd6544824236ebfbe2c612c23b0c1efe3",
+        "size_in_bytes": 2233
+      },
+      {
+        "_path": "include/openbabel3/openbabel/depict/commandpainter.h",
+        "path_type": "hardlink",
+        "sha256": "d821f3eb3f1664a6d17bdf19f8d0b7b6c392be6dd416a2d352f98e9e10a6f744",
+        "sha256_in_prefix": "d821f3eb3f1664a6d17bdf19f8d0b7b6c392be6dd416a2d352f98e9e10a6f744",
+        "size_in_bytes": 2098
+      },
+      {
+        "_path": "include/openbabel3/openbabel/depict/depict.h",
+        "path_type": "hardlink",
+        "sha256": "9f0b62d311cbbcb2179d20704a1c4b022088986daad734e92abee484b5f19324",
+        "sha256_in_prefix": "9f0b62d311cbbcb2179d20704a1c4b022088986daad734e92abee484b5f19324",
+        "size_in_bytes": 3301
+      },
+      {
+        "_path": "include/openbabel3/openbabel/depict/painter.h",
+        "path_type": "hardlink",
+        "sha256": "353c7b671003bb95205f18c4033c1f31c27c1b27b5f56d3d0cc7f08fc910c6c6",
+        "sha256_in_prefix": "353c7b671003bb95205f18c4033c1f31c27c1b27b5f56d3d0cc7f08fc910c6c6",
+        "size_in_bytes": 6472
+      },
+      {
+        "_path": "include/openbabel3/openbabel/depict/svgpainter.h",
+        "path_type": "hardlink",
+        "sha256": "817f39192ecac9322a158e965a3cb392a3db4b20f1e9faa4d3817436bfe80c46",
+        "sha256_in_prefix": "817f39192ecac9322a158e965a3cb392a3db4b20f1e9faa4d3817436bfe80c46",
+        "size_in_bytes": 2868
+      },
+      {
+        "_path": "include/openbabel3/openbabel/descriptor.h",
+        "path_type": "hardlink",
+        "sha256": "e268510151a6d0b789a25e80d8b5bc8e88dd02b8a20a302f98498daf57b63dbe",
+        "sha256_in_prefix": "e268510151a6d0b789a25e80d8b5bc8e88dd02b8a20a302f98498daf57b63dbe",
+        "size_in_bytes": 5076
+      },
+      {
+        "_path": "include/openbabel3/openbabel/distgeom.h",
+        "path_type": "hardlink",
+        "sha256": "9cb714a64eccf0ab70e12f379109570e3970cffea15d05d22a1b6b4ae7eb6487",
+        "sha256_in_prefix": "9cb714a64eccf0ab70e12f379109570e3970cffea15d05d22a1b6b4ae7eb6487",
+        "size_in_bytes": 5918
+      },
+      {
+        "_path": "include/openbabel3/openbabel/dlhandler.h",
+        "path_type": "hardlink",
+        "sha256": "eb9416fc96c601aabc1176e928d33da2b9bed175e639c58b0307aa3d93d3bf79",
+        "sha256_in_prefix": "eb9416fc96c601aabc1176e928d33da2b9bed175e639c58b0307aa3d93d3bf79",
+        "size_in_bytes": 4128
+      },
+      {
+        "_path": "include/openbabel3/openbabel/elements.h",
+        "path_type": "hardlink",
+        "sha256": "858dbdf7ac31b91de08ae6eec49c5adbd5a845e4c659b616f723b346372e39b5",
+        "sha256_in_prefix": "858dbdf7ac31b91de08ae6eec49c5adbd5a845e4c659b616f723b346372e39b5",
+        "size_in_bytes": 12291
+      },
+      {
+        "_path": "include/openbabel3/openbabel/fingerprint.h",
+        "path_type": "hardlink",
+        "sha256": "b8c9c31d67072904365af2f3fcdd7f9dbb483420dcdb0109acf46bea77a56fd9",
+        "sha256_in_prefix": "b8c9c31d67072904365af2f3fcdd7f9dbb483420dcdb0109acf46bea77a56fd9",
+        "size_in_bytes": 7765
+      },
+      {
+        "_path": "include/openbabel3/openbabel/forcefield.h",
+        "path_type": "hardlink",
+        "sha256": "12a99386cade0da212fa355b59f2a57fdedf49e782ed6a76bc6842ff2470fa55",
+        "sha256_in_prefix": "12a99386cade0da212fa355b59f2a57fdedf49e782ed6a76bc6842ff2470fa55",
+        "size_in_bytes": 70033
+      },
+      {
+        "_path": "include/openbabel3/openbabel/format.h",
+        "path_type": "hardlink",
+        "sha256": "d4ead201c2af22a324436aa1f1b2c8c5b606618b766318c778cb8e639a1494f1",
+        "sha256_in_prefix": "d4ead201c2af22a324436aa1f1b2c8c5b606618b766318c778cb8e639a1494f1",
+        "size_in_bytes": 6337
+      },
+      {
+        "_path": "include/openbabel3/openbabel/generic.h",
+        "path_type": "hardlink",
+        "sha256": "b8dcec9960465fe285d367bdfb568685803db995cbb255b838338155a4f6b5a8",
+        "sha256_in_prefix": "b8dcec9960465fe285d367bdfb568685803db995cbb255b838338155a4f6b5a8",
+        "size_in_bytes": 41296
+      },
+      {
+        "_path": "include/openbabel3/openbabel/graphsym.h",
+        "path_type": "hardlink",
+        "sha256": "2fba5fa72490cf717341e53fa6d67896383af4b33a2018f790e87ce629c54582",
+        "sha256_in_prefix": "2fba5fa72490cf717341e53fa6d67896383af4b33a2018f790e87ce629c54582",
+        "size_in_bytes": 2424
+      },
+      {
+        "_path": "include/openbabel3/openbabel/grid.h",
+        "path_type": "hardlink",
+        "sha256": "62bc05f041668889c0ca66dd46c0811f0ea9dc92d5a4734e85bc51658ea01fc0",
+        "sha256_in_prefix": "62bc05f041668889c0ca66dd46c0811f0ea9dc92d5a4734e85bc51658ea01fc0",
+        "size_in_bytes": 12292
+      },
+      {
+        "_path": "include/openbabel3/openbabel/griddata.h",
+        "path_type": "hardlink",
+        "sha256": "ab66d25e0380983c75cd9e7df855ba87d7f2f78fd66aeba7d005cbfb2dd96d05",
+        "sha256_in_prefix": "ab66d25e0380983c75cd9e7df855ba87d7f2f78fd66aeba7d005cbfb2dd96d05",
+        "size_in_bytes": 5088
+      },
+      {
+        "_path": "include/openbabel3/openbabel/groupcontrib.h",
+        "path_type": "hardlink",
+        "sha256": "4da86a9836839f2922c746280024ca4bbe6ae311d454fdfaec61f55bc27e2a8d",
+        "sha256_in_prefix": "4da86a9836839f2922c746280024ca4bbe6ae311d454fdfaec61f55bc27e2a8d",
+        "size_in_bytes": 2991
+      },
+      {
+        "_path": "include/openbabel3/openbabel/inchiformat.h",
+        "path_type": "hardlink",
+        "sha256": "161d08e9fafe192fd24eeecd1643498c602673092e8780d0f5c22fad94c3a213",
+        "sha256_in_prefix": "161d08e9fafe192fd24eeecd1643498c602673092e8780d0f5c22fad94c3a213",
+        "size_in_bytes": 9626
+      },
+      {
+        "_path": "include/openbabel3/openbabel/internalcoord.h",
+        "path_type": "hardlink",
+        "sha256": "3615cee9e30168994c0954162db6f80907040b5ba85d7b4495088e5cd60229fe",
+        "sha256_in_prefix": "3615cee9e30168994c0954162db6f80907040b5ba85d7b4495088e5cd60229fe",
+        "size_in_bytes": 2819
+      },
+      {
+        "_path": "include/openbabel3/openbabel/isomorphism.h",
+        "path_type": "hardlink",
+        "sha256": "ccd57992789735c39bfd455352514b466901df441742e1d4b5cabc1f2282507e",
+        "sha256_in_prefix": "ccd57992789735c39bfd455352514b466901df441742e1d4b5cabc1f2282507e",
+        "size_in_bytes": 16139
+      },
+      {
+        "_path": "include/openbabel3/openbabel/json.h",
+        "path_type": "hardlink",
+        "sha256": "78e7d345ee7c64398cffd885176b89982c0c79a2732212453717f7906f7075bb",
+        "sha256_in_prefix": "78e7d345ee7c64398cffd885176b89982c0c79a2732212453717f7906f7075bb",
+        "size_in_bytes": 1336
+      },
+      {
+        "_path": "include/openbabel3/openbabel/kekulize.h",
+        "path_type": "hardlink",
+        "sha256": "c33a560bd3a9c13fbbcb6c6415c69a326c64713f7850dae6fb9a41f316e80aed",
+        "sha256_in_prefix": "c33a560bd3a9c13fbbcb6c6415c69a326c64713f7850dae6fb9a41f316e80aed",
+        "size_in_bytes": 2021
+      },
+      {
+        "_path": "include/openbabel3/openbabel/kinetics.h",
+        "path_type": "hardlink",
+        "sha256": "87f5944895e54507f616dcf93d22526783aae4c0a097bcc19b9e70eb48a7c953",
+        "sha256_in_prefix": "87f5944895e54507f616dcf93d22526783aae4c0a097bcc19b9e70eb48a7c953",
+        "size_in_bytes": 4815
+      },
+      {
+        "_path": "include/openbabel3/openbabel/lineend.h",
+        "path_type": "hardlink",
+        "sha256": "f80c5bec218c636d69d65f863c83b85fe257f4ce3f9b49a426a5bed347bc47e8",
+        "sha256_in_prefix": "f80c5bec218c636d69d65f863c83b85fe257f4ce3f9b49a426a5bed347bc47e8",
+        "size_in_bytes": 6553
+      },
+      {
+        "_path": "include/openbabel3/openbabel/locale.h",
+        "path_type": "hardlink",
+        "sha256": "dbfbcbceda319503e6b75f12ab3a30624c6adee5228d5e67151855a591b4a858",
+        "sha256_in_prefix": "dbfbcbceda319503e6b75f12ab3a30624c6adee5228d5e67151855a591b4a858",
+        "size_in_bytes": 1520
+      },
+      {
+        "_path": "include/openbabel3/openbabel/math/align.h",
+        "path_type": "hardlink",
+        "sha256": "69147173a87d69223d188ea503a79836ccdf2ef3057076e762041b5325cd4ad9",
+        "sha256_in_prefix": "69147173a87d69223d188ea503a79836ccdf2ef3057076e762041b5325cd4ad9",
+        "size_in_bytes": 7859
+      },
+      {
+        "_path": "include/openbabel3/openbabel/math/erf.h",
+        "path_type": "hardlink",
+        "sha256": "c459c77d519255ea2d9a5eabb0e49fa221e5fbe3f04208d1a8d7241ce113346b",
+        "sha256_in_prefix": "c459c77d519255ea2d9a5eabb0e49fa221e5fbe3f04208d1a8d7241ce113346b",
+        "size_in_bytes": 2142
+      },
+      {
+        "_path": "include/openbabel3/openbabel/math/matrix3x3.h",
+        "path_type": "hardlink",
+        "sha256": "f37a1ca4fb6a3211f64f8943f882be8da2b7d6d47bef527c36f0d7aa04689b9c",
+        "sha256_in_prefix": "f37a1ca4fb6a3211f64f8943f882be8da2b7d6d47bef527c36f0d7aa04689b9c",
+        "size_in_bytes": 9153
+      },
+      {
+        "_path": "include/openbabel3/openbabel/math/spacegroup.h",
+        "path_type": "hardlink",
+        "sha256": "956b95c836e79fb52d97b5ff37a373cd49fa185657cb73e823ffb70eeda5279b",
+        "sha256_in_prefix": "956b95c836e79fb52d97b5ff37a373cd49fa185657cb73e823ffb70eeda5279b",
+        "size_in_bytes": 3314
+      },
+      {
+        "_path": "include/openbabel3/openbabel/math/transform3d.h",
+        "path_type": "hardlink",
+        "sha256": "d33d940ee5173ae80ee86675d200f1e3b999a9db9ef5d4bc48e551fd0672ad8b",
+        "sha256_in_prefix": "d33d940ee5173ae80ee86675d200f1e3b999a9db9ef5d4bc48e551fd0672ad8b",
+        "size_in_bytes": 2397
+      },
+      {
+        "_path": "include/openbabel3/openbabel/math/vector3.h",
+        "path_type": "hardlink",
+        "sha256": "176660bc8e0c3fa6cdbebd26495765280b7da42ba6cb18bc603fd868874e67fd",
+        "sha256_in_prefix": "176660bc8e0c3fa6cdbebd26495765280b7da42ba6cb18bc603fd868874e67fd",
+        "size_in_bytes": 11605
+      },
+      {
+        "_path": "include/openbabel3/openbabel/matrix.h",
+        "path_type": "hardlink",
+        "sha256": "528368b357705d604dbbfea54971c8980855545bdc57ca06f91d5296a0dc8f3d",
+        "sha256_in_prefix": "528368b357705d604dbbfea54971c8980855545bdc57ca06f91d5296a0dc8f3d",
+        "size_in_bytes": 2482
+      },
+      {
+        "_path": "include/openbabel3/openbabel/mcdlutil.h",
+        "path_type": "hardlink",
+        "sha256": "9c50a245684d1221761712e27c2a53b2f9bd4e4bd16baea45974b87533b1ddc6",
+        "sha256_in_prefix": "9c50a245684d1221761712e27c2a53b2f9bd4e4bd16baea45974b87533b1ddc6",
+        "size_in_bytes": 5978
+      },
+      {
+        "_path": "include/openbabel3/openbabel/mol.h",
+        "path_type": "hardlink",
+        "sha256": "ae951bdcaf601bdcc124adb3c2904b6c257752bcac9b72d6d255d49e1095a3f8",
+        "sha256_in_prefix": "ae951bdcaf601bdcc124adb3c2904b6c257752bcac9b72d6d255d49e1095a3f8",
+        "size_in_bytes": 38362
+      },
+      {
+        "_path": "include/openbabel3/openbabel/molchrg.h",
+        "path_type": "hardlink",
+        "sha256": "24911cb8ea5e7b235b6213e811d5e255988b8d3705dea2662194e0f325cbacdd",
+        "sha256_in_prefix": "24911cb8ea5e7b235b6213e811d5e255988b8d3705dea2662194e0f325cbacdd",
+        "size_in_bytes": 2218
+      },
+      {
+        "_path": "include/openbabel3/openbabel/obconversion.h",
+        "path_type": "hardlink",
+        "sha256": "d3f6d081750777a854d5f77bba436cc34421a796f86950cbb5cd36404d35a6ae",
+        "sha256_in_prefix": "d3f6d081750777a854d5f77bba436cc34421a796f86950cbb5cd36404d35a6ae",
+        "size_in_bytes": 19909
+      },
+      {
+        "_path": "include/openbabel3/openbabel/oberror.h",
+        "path_type": "hardlink",
+        "sha256": "cd9a539d801dd08e5ec37a6b129d598e88ac9f677fd4c1976d9b614535177f26",
+        "sha256_in_prefix": "cd9a539d801dd08e5ec37a6b129d598e88ac9f677fd4c1976d9b614535177f26",
+        "size_in_bytes": 9014
+      },
+      {
+        "_path": "include/openbabel3/openbabel/obfunctions.h",
+        "path_type": "hardlink",
+        "sha256": "a2cc49e96e759abf279ce6fcb1046996967010a6381ecbd22789a6ce3e46c530",
+        "sha256_in_prefix": "a2cc49e96e759abf279ce6fcb1046996967010a6381ecbd22789a6ce3e46c530",
+        "size_in_bytes": 2593
+      },
+      {
+        "_path": "include/openbabel3/openbabel/obiter.h",
+        "path_type": "hardlink",
+        "sha256": "b176e3bb75eb160fc57a08949b781d014c6d4b466a24bca2035e688b2390eeae",
+        "sha256_in_prefix": "b176e3bb75eb160fc57a08949b781d014c6d4b466a24bca2035e688b2390eeae",
+        "size_in_bytes": 16216
+      },
+      {
+        "_path": "include/openbabel3/openbabel/obmolecformat.h",
+        "path_type": "hardlink",
+        "sha256": "3d7113877606cb60593e24d7db4546c0415ee0773f698f4520603df49c0ceec0",
+        "sha256_in_prefix": "3d7113877606cb60593e24d7db4546c0415ee0773f698f4520603df49c0ceec0",
+        "size_in_bytes": 7380
+      },
+      {
+        "_path": "include/openbabel3/openbabel/obutil.h",
+        "path_type": "hardlink",
+        "sha256": "dd0e5401f34373bbaf0df71aa390c313e12d29eff25d8dcc6292b5b41af96638",
+        "sha256_in_prefix": "dd0e5401f34373bbaf0df71aa390c313e12d29eff25d8dcc6292b5b41af96638",
+        "size_in_bytes": 9727
+      },
+      {
+        "_path": "include/openbabel3/openbabel/op.h",
+        "path_type": "hardlink",
+        "sha256": "3b734b26f5b65cb9e642dffe563ea170114f963c395bd4815f1f3f37bb84b620",
+        "sha256_in_prefix": "3b734b26f5b65cb9e642dffe563ea170114f963c395bd4815f1f3f37bb84b620",
+        "size_in_bytes": 5561
+      },
+      {
+        "_path": "include/openbabel3/openbabel/optransform.h",
+        "path_type": "hardlink",
+        "sha256": "09760ac1a0ed20e0a483da3d06f9b8737b8aec27fe667a5d50ecf2980c660dc6",
+        "sha256_in_prefix": "09760ac1a0ed20e0a483da3d06f9b8737b8aec27fe667a5d50ecf2980c660dc6",
+        "size_in_bytes": 2412
+      },
+      {
+        "_path": "include/openbabel3/openbabel/parsmart.h",
+        "path_type": "hardlink",
+        "sha256": "c427d4f8a61eb570c900d50ae8deb866218f23f0815f15f52938a5407697c1e7",
+        "sha256_in_prefix": "c427d4f8a61eb570c900d50ae8deb866218f23f0815f15f52938a5407697c1e7",
+        "size_in_bytes": 12086
+      },
+      {
+        "_path": "include/openbabel3/openbabel/patty.h",
+        "path_type": "hardlink",
+        "sha256": "9ab321ce89428170b8bfd4106eb0675eccc2bff10c5c29154a66e55df95e6c0b",
+        "sha256_in_prefix": "9ab321ce89428170b8bfd4106eb0675eccc2bff10c5c29154a66e55df95e6c0b",
+        "size_in_bytes": 2325
+      },
+      {
+        "_path": "include/openbabel3/openbabel/phmodel.h",
+        "path_type": "hardlink",
+        "sha256": "b904b7cf40ceb94177e4e6310eab8b14067c923cbaab51a9dd62bdef12923142",
+        "sha256_in_prefix": "b904b7cf40ceb94177e4e6310eab8b14067c923cbaab51a9dd62bdef12923142",
+        "size_in_bytes": 4158
+      },
+      {
+        "_path": "include/openbabel3/openbabel/plugin.h",
+        "path_type": "hardlink",
+        "sha256": "9e3101e7a7136009ad075a0211ffa6045afdb9ab2da8998f0271d4719ae6452f",
+        "sha256_in_prefix": "9e3101e7a7136009ad075a0211ffa6045afdb9ab2da8998f0271d4719ae6452f",
+        "size_in_bytes": 21285
+      },
+      {
+        "_path": "include/openbabel3/openbabel/pointgroup.h",
+        "path_type": "hardlink",
+        "sha256": "50f5c4f0090d139cae651e3c3b78a3f8a80d09b36ecdf7a46ba08743c8be80b8",
+        "sha256_in_prefix": "50f5c4f0090d139cae651e3c3b78a3f8a80d09b36ecdf7a46ba08743c8be80b8",
+        "size_in_bytes": 2997
+      },
+      {
+        "_path": "include/openbabel3/openbabel/query.h",
+        "path_type": "hardlink",
+        "sha256": "1fb890ab01d26afbff98060d4a60960117dd21950f50d0ee4eefaf2671f5ca05",
+        "sha256_in_prefix": "1fb890ab01d26afbff98060d4a60960117dd21950f50d0ee4eefaf2671f5ca05",
+        "size_in_bytes": 9165
+      },
+      {
+        "_path": "include/openbabel3/openbabel/reaction.h",
+        "path_type": "hardlink",
+        "sha256": "71a6a8860b7fb12e3fc8c85bc079347f3856ceb867998cdca0bb45be02dc4f0f",
+        "sha256_in_prefix": "71a6a8860b7fb12e3fc8c85bc079347f3856ceb867998cdca0bb45be02dc4f0f",
+        "size_in_bytes": 3460
+      },
+      {
+        "_path": "include/openbabel3/openbabel/reactionfacade.h",
+        "path_type": "hardlink",
+        "sha256": "37acb199fc28c6da6eb6ad7a74dded5b1ba940f6a86a1b55e75b5973ac5e1795",
+        "sha256_in_prefix": "37acb199fc28c6da6eb6ad7a74dded5b1ba940f6a86a1b55e75b5973ac5e1795",
+        "size_in_bytes": 8091
+      },
+      {
+        "_path": "include/openbabel3/openbabel/residue.h",
+        "path_type": "hardlink",
+        "sha256": "bf8bc2d1180174d5e39a147e12c671707ae772619e1801fda73d74f2a1cf704d",
+        "sha256_in_prefix": "bf8bc2d1180174d5e39a147e12c671707ae772619e1801fda73d74f2a1cf704d",
+        "size_in_bytes": 14099
+      },
+      {
+        "_path": "include/openbabel3/openbabel/ring.h",
+        "path_type": "hardlink",
+        "sha256": "2266de5dbd7e5c163268a094ed19f009985e95402df16931b77493448dbc5254",
+        "sha256_in_prefix": "2266de5dbd7e5c163268a094ed19f009985e95402df16931b77493448dbc5254",
+        "size_in_bytes": 6697
+      },
+      {
+        "_path": "include/openbabel3/openbabel/rotamer.h",
+        "path_type": "hardlink",
+        "sha256": "db3f023dd424701d1feab011ff27933f506b1f9484cd7e13c992ab6f5bac7490",
+        "sha256_in_prefix": "db3f023dd424701d1feab011ff27933f506b1f9484cd7e13c992ab6f5bac7490",
+        "size_in_bytes": 5769
+      },
+      {
+        "_path": "include/openbabel3/openbabel/rotor.h",
+        "path_type": "hardlink",
+        "sha256": "cffabf809d9e1c16389a53e137fa0a4165c3bf9fdaa4696a751d4716d0eeab43",
+        "sha256_in_prefix": "cffabf809d9e1c16389a53e137fa0a4165c3bf9fdaa4696a751d4716d0eeab43",
+        "size_in_bytes": 26169
+      },
+      {
+        "_path": "include/openbabel3/openbabel/shared_ptr.h",
+        "path_type": "hardlink",
+        "sha256": "4a840d66cd69a61d9714a249e3a7debc2232f17f5ce313f6b4659ab96b865bcd",
+        "sha256_in_prefix": "4a840d66cd69a61d9714a249e3a7debc2232f17f5ce313f6b4659ab96b865bcd",
+        "size_in_bytes": 1017
+      },
+      {
+        "_path": "include/openbabel3/openbabel/spectrophore.h",
+        "path_type": "hardlink",
+        "sha256": "1435f9656af4350b3d7ec823672cd5b8918d0d6600b1f94288ad21c2410544c9",
+        "sha256_in_prefix": "1435f9656af4350b3d7ec823672cd5b8918d0d6600b1f94288ad21c2410544c9",
+        "size_in_bytes": 31087
+      },
+      {
+        "_path": "include/openbabel3/openbabel/stereo/bindings.h",
+        "path_type": "hardlink",
+        "sha256": "f8711c350c1a0ade897a94ab2244062ffe3bcdc7f91e80b3d8251ca09e633796",
+        "sha256_in_prefix": "f8711c350c1a0ade897a94ab2244062ffe3bcdc7f91e80b3d8251ca09e633796",
+        "size_in_bytes": 8689
+      },
+      {
+        "_path": "include/openbabel3/openbabel/stereo/cistrans.h",
+        "path_type": "hardlink",
+        "sha256": "fd4022d9d57c1a4d481659f92c0d252f08db13e99a8ea9a38d6dd4c42db34680",
+        "sha256_in_prefix": "fd4022d9d57c1a4d481659f92c0d252f08db13e99a8ea9a38d6dd4c42db34680",
+        "size_in_bytes": 12931
+      },
+      {
+        "_path": "include/openbabel3/openbabel/stereo/squareplanar.h",
+        "path_type": "hardlink",
+        "sha256": "fbcbd21e59432ff3a0916d77e993b88d282f0745cc650e3ffb55bc4c9a5f8ea9",
+        "sha256_in_prefix": "fbcbd21e59432ff3a0916d77e993b88d282f0745cc650e3ffb55bc4c9a5f8ea9",
+        "size_in_bytes": 10613
+      },
+      {
+        "_path": "include/openbabel3/openbabel/stereo/stereo.h",
+        "path_type": "hardlink",
+        "sha256": "7f7204d882a67bd3b724902666877681d6ac61de8ee015693a68700e436b70fb",
+        "sha256_in_prefix": "7f7204d882a67bd3b724902666877681d6ac61de8ee015693a68700e436b70fb",
+        "size_in_bytes": 48500
+      },
+      {
+        "_path": "include/openbabel3/openbabel/stereo/tetrahedral.h",
+        "path_type": "hardlink",
+        "sha256": "d14e98716966915b31298313608beaa46f269bd77c6da2f2c0f24ceec764e658",
+        "sha256_in_prefix": "d14e98716966915b31298313608beaa46f269bd77c6da2f2c0f24ceec764e658",
+        "size_in_bytes": 11262
+      },
+      {
+        "_path": "include/openbabel3/openbabel/stereo/tetranonplanar.h",
+        "path_type": "hardlink",
+        "sha256": "f8292e77e974b647dff13fd6bb4b486889973152ecbf77871461c7339f20b3c5",
+        "sha256_in_prefix": "f8292e77e974b647dff13fd6bb4b486889973152ecbf77871461c7339f20b3c5",
+        "size_in_bytes": 8115
+      },
+      {
+        "_path": "include/openbabel3/openbabel/stereo/tetraplanar.h",
+        "path_type": "hardlink",
+        "sha256": "3cbffae8a02665eff3c3805d5b97ac0e53082f877bf4b47bd9cbc65805029da0",
+        "sha256_in_prefix": "3cbffae8a02665eff3c3805d5b97ac0e53082f877bf4b47bd9cbc65805029da0",
+        "size_in_bytes": 4956
+      },
+      {
+        "_path": "include/openbabel3/openbabel/tautomer.h",
+        "path_type": "hardlink",
+        "sha256": "d40a46d3ddbd8f48542325aaa6e2c6aacfb181df1b868285243fc06b50fe4ff9",
+        "sha256_in_prefix": "d40a46d3ddbd8f48542325aaa6e2c6aacfb181df1b868285243fc06b50fe4ff9",
+        "size_in_bytes": 4516
+      },
+      {
+        "_path": "include/openbabel3/openbabel/text.h",
+        "path_type": "hardlink",
+        "sha256": "3a9002d9cbaa8466684ab5b7257fa281a2120285a75f56692636d3ab98a2a85e",
+        "sha256_in_prefix": "3a9002d9cbaa8466684ab5b7257fa281a2120285a75f56692636d3ab98a2a85e",
+        "size_in_bytes": 3241
+      },
+      {
+        "_path": "include/openbabel3/openbabel/tokenst.h",
+        "path_type": "hardlink",
+        "sha256": "6d241aaf35c07a0ea4b0376b3b067eb9ff9c90329373ff7f9fc2c511fe65ba6c",
+        "sha256_in_prefix": "6d241aaf35c07a0ea4b0376b3b067eb9ff9c90329373ff7f9fc2c511fe65ba6c",
+        "size_in_bytes": 2455
+      },
+      {
+        "_path": "include/openbabel3/openbabel/typer.h",
+        "path_type": "hardlink",
+        "sha256": "ba9dbdf9cbae1912e4b34e075e7fe8172afb1ca791c1881d9a9b052705dbbc95",
+        "sha256_in_prefix": "ba9dbdf9cbae1912e4b34e075e7fe8172afb1ca791c1881d9a9b052705dbbc95",
+        "size_in_bytes": 3206
+      },
+      {
+        "_path": "include/openbabel3/openbabel/xml.h",
+        "path_type": "hardlink",
+        "sha256": "bdf6f69f0726357825fa65fb8c290a0eb60242cc4331923be9560d84ddeef383",
+        "sha256_in_prefix": "bdf6f69f0726357825fa65fb8c290a0eb60242cc4331923be9560d84ddeef383",
+        "size_in_bytes": 8031
+      },
+      {
+        "_path": "lib/cmake/openbabel3/OpenBabel3Config.cmake",
+        "path_type": "hardlink",
+        "sha256": "a8e4c7556572b4c5ce8ee0d255ad2a4f62db34da3a0b203cf5f2f8a422877b5d",
+        "sha256_in_prefix": "a8e4c7556572b4c5ce8ee0d255ad2a4f62db34da3a0b203cf5f2f8a422877b5d",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "lib/cmake/openbabel3/OpenBabel3ConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "dbafbe5bf87585e9694af8970c494d83ae7c5c2590b4c2789b7e15a2323fbac5",
+        "sha256_in_prefix": "dbafbe5bf87585e9694af8970c494d83ae7c5c2590b4c2789b7e15a2323fbac5",
+        "size_in_bytes": 528
+      },
+      {
+        "_path": "lib/cmake/openbabel3/OpenBabel3_EXPORTS-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "67b5abe0893135f19fa354fe5728f3a720851f6dc4712a388cc10e4bc5faebc3",
+        "sha256_in_prefix": "67b5abe0893135f19fa354fe5728f3a720851f6dc4712a388cc10e4bc5faebc3",
+        "size_in_bytes": 1258
+      },
+      {
+        "_path": "lib/cmake/openbabel3/OpenBabel3_EXPORTS.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/openbabel_1701376235703/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "96cd16965220e99eebf2e15e6dbd0d714951068743682a153341bf5b99a3b3ef",
+        "sha256_in_prefix": "605f76913fb99207237e4c73313cb960eec61011eab412e8e5812d0f63a3f134",
+        "size_in_bytes": 5214
+      },
+      {
+        "_path": "lib/libinchi.so",
+        "path_type": "softlink",
+        "sha256": "ddbecb0ce2bd07bab6e591bd354b3580a45d97fe96f676487601d00f604619d2",
+        "size_in_bytes": 1272432
+      },
+      {
+        "_path": "lib/libinchi.so.0",
+        "path_type": "softlink",
+        "sha256": "ddbecb0ce2bd07bab6e591bd354b3580a45d97fe96f676487601d00f604619d2",
+        "size_in_bytes": 1272432
+      },
+      {
+        "_path": "lib/libinchi.so.0.4.1",
+        "path_type": "hardlink",
+        "sha256": "ddbecb0ce2bd07bab6e591bd354b3580a45d97fe96f676487601d00f604619d2",
+        "sha256_in_prefix": "ddbecb0ce2bd07bab6e591bd354b3580a45d97fe96f676487601d00f604619d2",
+        "size_in_bytes": 1272432
+      },
+      {
+        "_path": "lib/libopenbabel.so",
+        "path_type": "softlink",
+        "sha256": "033345e8c2e701b2c871625b55c706263c3cdf7b93aa52aa608e745ef46768c4",
+        "size_in_bytes": 3078632
+      },
+      {
+        "_path": "lib/libopenbabel.so.7",
+        "path_type": "softlink",
+        "sha256": "033345e8c2e701b2c871625b55c706263c3cdf7b93aa52aa608e745ef46768c4",
+        "size_in_bytes": 3078632
+      },
+      {
+        "_path": "lib/libopenbabel.so.7.0.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/openbabel_1701376235703/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "033345e8c2e701b2c871625b55c706263c3cdf7b93aa52aa608e745ef46768c4",
+        "sha256_in_prefix": "dbf54254b18e8cba790a730ac558e4b67eb491efe3a8c4afb0fc22bfd3abad11",
+        "size_in_bytes": 3078632
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/APIInterface.so",
+        "path_type": "hardlink",
+        "sha256": "8413c43b7114ec38dbafebccd0cc71b2c07d1b9c4763f6fbb2bdcc138e7b17b8",
+        "sha256_in_prefix": "8413c43b7114ec38dbafebccd0cc71b2c07d1b9c4763f6fbb2bdcc138e7b17b8",
+        "size_in_bytes": 24752
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/CSRformat.so",
+        "path_type": "hardlink",
+        "sha256": "1939ab42baee723a79cfa94ed2b70084cc20c06b345f60aeabd535ef65f6b890",
+        "sha256_in_prefix": "1939ab42baee723a79cfa94ed2b70084cc20c06b345f60aeabd535ef65f6b890",
+        "size_in_bytes": 33512
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/MCDLformat.so",
+        "path_type": "hardlink",
+        "sha256": "f9800ac61c96aa43e4f6398aa9890d05924994e8b4dd8218cbc59a0593042a0e",
+        "sha256_in_prefix": "f9800ac61c96aa43e4f6398aa9890d05924994e8b4dd8218cbc59a0593042a0e",
+        "size_in_bytes": 125968
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/MNAformat.so",
+        "path_type": "hardlink",
+        "sha256": "c88f1aa83159645049f7cd76cd88a0262db361524e05639ef2e4f2f31b78f6d1",
+        "sha256_in_prefix": "c88f1aa83159645049f7cd76cd88a0262db361524e05639ef2e4f2f31b78f6d1",
+        "size_in_bytes": 53840
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/PQSformat.so",
+        "path_type": "hardlink",
+        "sha256": "1fabcc1911353b4d25da200e44210650e0bccb73100afafe7f85ebc0157bf073",
+        "sha256_in_prefix": "1fabcc1911353b4d25da200e44210650e0bccb73100afafe7f85ebc0157bf073",
+        "size_in_bytes": 49536
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/abinitformat.so",
+        "path_type": "hardlink",
+        "sha256": "08d194ec939611708aa0092d2d8d8a3f2a8dfc76a517af2c9d59557f017cad1c",
+        "sha256_in_prefix": "08d194ec939611708aa0092d2d8d8a3f2a8dfc76a517af2c9d59557f017cad1c",
+        "size_in_bytes": 38928
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/acesformat.so",
+        "path_type": "hardlink",
+        "sha256": "936f465e402dbc0d973f104323dd6ed873964312d4a6698544a0cc306f07870b",
+        "sha256_in_prefix": "936f465e402dbc0d973f104323dd6ed873964312d4a6698544a0cc306f07870b",
+        "size_in_bytes": 53776
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/acrformat.so",
+        "path_type": "hardlink",
+        "sha256": "72cb7a907a69316835fda0ba11ad58094d5f7d4f8d0d714773eba585aea38752",
+        "sha256_in_prefix": "72cb7a907a69316835fda0ba11ad58094d5f7d4f8d0d714773eba585aea38752",
+        "size_in_bytes": 34224
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/adfformat.so",
+        "path_type": "hardlink",
+        "sha256": "b6cf52f463be6fcf4625fd0d038f3dbc2a34cadc01289b5bcc2b079d0644e2ea",
+        "sha256_in_prefix": "b6cf52f463be6fcf4625fd0d038f3dbc2a34cadc01289b5bcc2b079d0644e2ea",
+        "size_in_bytes": 99144
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/alchemyformat.so",
+        "path_type": "hardlink",
+        "sha256": "593eb4fb9e9ada34b15418d19285144e3c5e69c828480c95fb6ca5330af74e92",
+        "sha256_in_prefix": "593eb4fb9e9ada34b15418d19285144e3c5e69c828480c95fb6ca5330af74e92",
+        "size_in_bytes": 34992
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/amberformat.so",
+        "path_type": "hardlink",
+        "sha256": "eb722a16debd97aaa0ce85dc1e757eb7b21b6b92e6518b0674a9aa5d8ac50ef7",
+        "sha256_in_prefix": "eb722a16debd97aaa0ce85dc1e757eb7b21b6b92e6518b0674a9aa5d8ac50ef7",
+        "size_in_bytes": 33960
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/aoforceformat.so",
+        "path_type": "hardlink",
+        "sha256": "6d4bd727a400ea4d5dcc507c148e6a1bfd761d003c2cbda141d253af836fc2bd",
+        "sha256_in_prefix": "6d4bd727a400ea4d5dcc507c148e6a1bfd761d003c2cbda141d253af836fc2bd",
+        "size_in_bytes": 48672
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/asciiformat.so",
+        "path_type": "hardlink",
+        "sha256": "bb9dad02a7489142e087d43334a44b957b2309b45798ded3fd556b7674d267f1",
+        "sha256_in_prefix": "bb9dad02a7489142e087d43334a44b957b2309b45798ded3fd556b7674d267f1",
+        "size_in_bytes": 54368
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/balstformat.so",
+        "path_type": "hardlink",
+        "sha256": "c09d5a61771f2686b5a342fec4f6f109d730559540fda82f03c98891c850fd5d",
+        "sha256_in_prefix": "c09d5a61771f2686b5a342fec4f6f109d730559540fda82f03c98891c850fd5d",
+        "size_in_bytes": 34728
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/bgfformat.so",
+        "path_type": "hardlink",
+        "sha256": "b02ae8a65c160e47fde00c6dd0b2af1332328c9ee7b46ed989b6eaae4f631074",
+        "sha256_in_prefix": "b02ae8a65c160e47fde00c6dd0b2af1332328c9ee7b46ed989b6eaae4f631074",
+        "size_in_bytes": 44336
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/boxformat.so",
+        "path_type": "hardlink",
+        "sha256": "3bd91ad749046c1de96cbd0cca3150de41bf0d33ccb08eae469e7c46feaf55a3",
+        "sha256_in_prefix": "3bd91ad749046c1de96cbd0cca3150de41bf0d33ccb08eae469e7c46feaf55a3",
+        "size_in_bytes": 38128
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/cacaoformat.so",
+        "path_type": "hardlink",
+        "sha256": "6504d71e83e55bec2a5a7ef2ea2aadb0abb8b39134451b6a8f107d0572a0deac",
+        "sha256_in_prefix": "6504d71e83e55bec2a5a7ef2ea2aadb0abb8b39134451b6a8f107d0572a0deac",
+        "size_in_bytes": 49224
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/cacheformat.so",
+        "path_type": "hardlink",
+        "sha256": "df02cf8af1a6b18f33354076497e2b6d9788d1f0ae3d3df4d6bd49adf4105cad",
+        "sha256_in_prefix": "df02cf8af1a6b18f33354076497e2b6d9788d1f0ae3d3df4d6bd49adf4105cad",
+        "size_in_bytes": 33384
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/carformat.so",
+        "path_type": "hardlink",
+        "sha256": "62fb0f2fe612a8ae181377081fb675f6ed6928c9bf00be8b59b09621ec0dbaed",
+        "sha256_in_prefix": "62fb0f2fe612a8ae181377081fb675f6ed6928c9bf00be8b59b09621ec0dbaed",
+        "size_in_bytes": 34728
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/castepformat.so",
+        "path_type": "hardlink",
+        "sha256": "4a9d0707e33432eebd5566504cfcbdeb4f0547797ccba1810e2d2497366f024f",
+        "sha256_in_prefix": "4a9d0707e33432eebd5566504cfcbdeb4f0547797ccba1810e2d2497366f024f",
+        "size_in_bytes": 39032
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/cccformat.so",
+        "path_type": "hardlink",
+        "sha256": "4da05d174b6056c017c4eec689fe7fb20eda8543cb0272fcdb7a5668282969c4",
+        "sha256_in_prefix": "4da05d174b6056c017c4eec689fe7fb20eda8543cb0272fcdb7a5668282969c4",
+        "size_in_bytes": 33712
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/cdxmlformat.so",
+        "path_type": "hardlink",
+        "sha256": "9346d76d30378a98ec257d2b7f38a5d025faebc62b57a011017182d7e230ffc1",
+        "sha256_in_prefix": "9346d76d30378a98ec257d2b7f38a5d025faebc62b57a011017182d7e230ffc1",
+        "size_in_bytes": 73712
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/chem3dformat.so",
+        "path_type": "hardlink",
+        "sha256": "dd6854e66b273077260462f1d0666cfbdab22e2676ab43c253467ddd3137339c",
+        "sha256_in_prefix": "dd6854e66b273077260462f1d0666cfbdab22e2676ab43c253467ddd3137339c",
+        "size_in_bytes": 44984
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/chemdoodlejsonformat.so",
+        "path_type": "hardlink",
+        "sha256": "cb60de4673376653598218f060fd3524dd6e9d353b9f712c337bf5b63558cb2e",
+        "sha256_in_prefix": "cb60de4673376653598218f060fd3524dd6e9d353b9f712c337bf5b63558cb2e",
+        "size_in_bytes": 122656
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/chemdrawcdx.so",
+        "path_type": "hardlink",
+        "sha256": "c4ec638749e69cc18cf7f3c91ecfd1fce4b5d20fb9346ff1749b21e63d0adaae",
+        "sha256_in_prefix": "c4ec638749e69cc18cf7f3c91ecfd1fce4b5d20fb9346ff1749b21e63d0adaae",
+        "size_in_bytes": 95760
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/chemdrawct.so",
+        "path_type": "hardlink",
+        "sha256": "b6d28846403310f36ce9adb4c8637c7773164ddbdd75e0300decd3599c312344",
+        "sha256_in_prefix": "b6d28846403310f36ce9adb4c8637c7773164ddbdd75e0300decd3599c312344",
+        "size_in_bytes": 34360
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/chemkinformat.so",
+        "path_type": "hardlink",
+        "sha256": "4c7ab47324010fc63ba8073f721caf93d62c3ff611529d2907cd7daea1c457d9",
+        "sha256_in_prefix": "4c7ab47324010fc63ba8073f721caf93d62c3ff611529d2907cd7daea1c457d9",
+        "size_in_bytes": 126184
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/chemtoolformat.so",
+        "path_type": "hardlink",
+        "sha256": "0accb6f43c8dee4c6ed178ccaee99b311b982253528b243bf5011464acec039e",
+        "sha256_in_prefix": "0accb6f43c8dee4c6ed178ccaee99b311b982253528b243bf5011464acec039e",
+        "size_in_bytes": 33416
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/cifformat.so",
+        "path_type": "hardlink",
+        "sha256": "c6ee1a3ec62ae5c437774af321b6ed7c405ed40c13f532099623c498966080c9",
+        "sha256_in_prefix": "c6ee1a3ec62ae5c437774af321b6ed7c405ed40c13f532099623c498966080c9",
+        "size_in_bytes": 168464
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/cmlformat.so",
+        "path_type": "hardlink",
+        "sha256": "9f5f9ce42c14803e4e70d9d5dbdae0ecf12757823f823c9cec4e8f352ca7b856",
+        "sha256_in_prefix": "9f5f9ce42c14803e4e70d9d5dbdae0ecf12757823f823c9cec4e8f352ca7b856",
+        "size_in_bytes": 202576
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/cmlreactformat.so",
+        "path_type": "hardlink",
+        "sha256": "73e7a5572a27d5140592b76c973a3d93beb89187104ebd2480691d538745ec1f",
+        "sha256_in_prefix": "73e7a5572a27d5140592b76c973a3d93beb89187104ebd2480691d538745ec1f",
+        "size_in_bytes": 129152
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/cofformat.so",
+        "path_type": "hardlink",
+        "sha256": "4d3144ca4669552dae0692aaab8aaa966233a153025ade3e0fda25945f174613",
+        "sha256_in_prefix": "4d3144ca4669552dae0692aaab8aaa966233a153025ade3e0fda25945f174613",
+        "size_in_bytes": 66848
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/confabreport.so",
+        "path_type": "hardlink",
+        "sha256": "238f93c658aaf8b92fa8b78bef8e9a7ff42461eef66b735f2b45c78abcbe6bfe",
+        "sha256_in_prefix": "238f93c658aaf8b92fa8b78bef8e9a7ff42461eef66b735f2b45c78abcbe6bfe",
+        "size_in_bytes": 49408
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/copyformat.so",
+        "path_type": "hardlink",
+        "sha256": "7e9b72b785cc00b91f3c183506ad78257384fe65ded0bba6fcda527ede9c8c9c",
+        "sha256_in_prefix": "7e9b72b785cc00b91f3c183506ad78257384fe65ded0bba6fcda527ede9c8c9c",
+        "size_in_bytes": 24040
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/crkformat.so",
+        "path_type": "hardlink",
+        "sha256": "ad5edd3f7c1b69702151376650354959bcc3dafc5ddaaa2de7b1b2aa5ff53dbf",
+        "sha256_in_prefix": "ad5edd3f7c1b69702151376650354959bcc3dafc5ddaaa2de7b1b2aa5ff53dbf",
+        "size_in_bytes": 53240
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/crystal09format.so",
+        "path_type": "hardlink",
+        "sha256": "af1de458a06aa78960eeefe8c63ed236a596eb8ccd77b891da951ce5216213fd",
+        "sha256_in_prefix": "af1de458a06aa78960eeefe8c63ed236a596eb8ccd77b891da951ce5216213fd",
+        "size_in_bytes": 57456
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/cssrformat.so",
+        "path_type": "hardlink",
+        "sha256": "ead7672e81f974328dd32cabf4c5605b53b9e9b91cc2eaf56cb9caab4e5be1dd",
+        "sha256_in_prefix": "ead7672e81f974328dd32cabf4c5605b53b9e9b91cc2eaf56cb9caab4e5be1dd",
+        "size_in_bytes": 33944
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/daltonformat.so",
+        "path_type": "hardlink",
+        "sha256": "41f1bc04eb3e4ac5221736f29f486131de3e549cba8131d9f8bd54aa48921434",
+        "sha256_in_prefix": "41f1bc04eb3e4ac5221736f29f486131de3e549cba8131d9f8bd54aa48921434",
+        "size_in_bytes": 44528
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/dlpolyformat.so",
+        "path_type": "hardlink",
+        "sha256": "3cbe7972b962baab26c8437a009eccb39610e8124ce723a7ba804c4d125ca8dc",
+        "sha256_in_prefix": "3cbe7972b962baab26c8437a009eccb39610e8124ce723a7ba804c4d125ca8dc",
+        "size_in_bytes": 89888
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/dmolformat.so",
+        "path_type": "hardlink",
+        "sha256": "ea7bc5e228d6c8308d212605190985c4731fa84418d55e910425f54cebd0bc55",
+        "sha256_in_prefix": "ea7bc5e228d6c8308d212605190985c4731fa84418d55e910425f54cebd0bc55",
+        "size_in_bytes": 34672
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/exyzformat.so",
+        "path_type": "hardlink",
+        "sha256": "391104bd698ae8b64c52fdfa4de4603d937e73244163b5287643dfb0a8bafc25",
+        "sha256_in_prefix": "391104bd698ae8b64c52fdfa4de4603d937e73244163b5287643dfb0a8bafc25",
+        "size_in_bytes": 62424
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/fastaformat.so",
+        "path_type": "hardlink",
+        "sha256": "0f6475beff6af3646b0ce150670332877462f6bc1277b88363bfd956af4864f2",
+        "sha256_in_prefix": "0f6475beff6af3646b0ce150670332877462f6bc1277b88363bfd956af4864f2",
+        "size_in_bytes": 298440
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/fastsearchformat.so",
+        "path_type": "hardlink",
+        "sha256": "66f6bb2c636c59a7630280430d8f770663226477876b71971d3250e6045b7260",
+        "sha256_in_prefix": "66f6bb2c636c59a7630280430d8f770663226477876b71971d3250e6045b7260",
+        "size_in_bytes": 83408
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/fchkformat.so",
+        "path_type": "hardlink",
+        "sha256": "dfdcbe85ab54c67768fa8e9e90706c686dc1f771b2daf32cec57a8b1a7c520ca",
+        "sha256_in_prefix": "dfdcbe85ab54c67768fa8e9e90706c686dc1f771b2daf32cec57a8b1a7c520ca",
+        "size_in_bytes": 81464
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/featformat.so",
+        "path_type": "hardlink",
+        "sha256": "671244c2ad0b2644d727a6867cca2a50c0a1b85f0cca6075112ff8687b35e034",
+        "sha256_in_prefix": "671244c2ad0b2644d727a6867cca2a50c0a1b85f0cca6075112ff8687b35e034",
+        "size_in_bytes": 34232
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/fhformat.so",
+        "path_type": "hardlink",
+        "sha256": "a19e3e6e59de746c1c091662c496664ebf2cf5705eeb91b5cb854aca9238a0b4",
+        "sha256_in_prefix": "a19e3e6e59de746c1c091662c496664ebf2cf5705eeb91b5cb854aca9238a0b4",
+        "size_in_bytes": 33752
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/fhiaimsformat.so",
+        "path_type": "hardlink",
+        "sha256": "da281e5d3675ffadb5aacaa2ac1ba894291c0b5666600a08dcf84b09e09a12fb",
+        "sha256_in_prefix": "da281e5d3675ffadb5aacaa2ac1ba894291c0b5666600a08dcf84b09e09a12fb",
+        "size_in_bytes": 34976
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/fingerprintformat.so",
+        "path_type": "hardlink",
+        "sha256": "c308640716d2e3026c6d933c680780d8eff0c038034f3e085a3841bdb8c5e64b",
+        "sha256_in_prefix": "c308640716d2e3026c6d933c680780d8eff0c038034f3e085a3841bdb8c5e64b",
+        "size_in_bytes": 44040
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/fpsformat.so",
+        "path_type": "hardlink",
+        "sha256": "a56e17865f016005efd4d04b546269841aed68ec03ce43ab723b971c8409cbf0",
+        "sha256_in_prefix": "a56e17865f016005efd4d04b546269841aed68ec03ce43ab723b971c8409cbf0",
+        "size_in_bytes": 43760
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/freefracformat.so",
+        "path_type": "hardlink",
+        "sha256": "3c89d256807c7ab7dd199c2b85c1fc5199f6be04903a92472980bf7b7403904d",
+        "sha256_in_prefix": "3c89d256807c7ab7dd199c2b85c1fc5199f6be04903a92472980bf7b7403904d",
+        "size_in_bytes": 39736
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/gamessformat.so",
+        "path_type": "hardlink",
+        "sha256": "3d25b59f8840c62c14051606c479d9d3980333f82446b0d2a533a77c40b01e3a",
+        "sha256_in_prefix": "3d25b59f8840c62c14051606c479d9d3980333f82446b0d2a533a77c40b01e3a",
+        "size_in_bytes": 109840
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/gamessukformat.so",
+        "path_type": "hardlink",
+        "sha256": "8fdfd06324e89311b5184ece64093bc9fcb07091e9ebf82d3bec87745f5f903b",
+        "sha256_in_prefix": "8fdfd06324e89311b5184ece64093bc9fcb07091e9ebf82d3bec87745f5f903b",
+        "size_in_bytes": 141120
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/gausscubeformat.so",
+        "path_type": "hardlink",
+        "sha256": "f25480f2d681b5ed82de49bc35b452d1fa407c035777fb79aa186080d3019161",
+        "sha256_in_prefix": "f25480f2d681b5ed82de49bc35b452d1fa407c035777fb79aa186080d3019161",
+        "size_in_bytes": 71072
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/gaussformat.so",
+        "path_type": "hardlink",
+        "sha256": "eafcc0a17015d738bc18335ec3487cd502b59fe1ffe51b9b5b0da55e1afae36f",
+        "sha256_in_prefix": "eafcc0a17015d738bc18335ec3487cd502b59fe1ffe51b9b5b0da55e1afae36f",
+        "size_in_bytes": 136392
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/gausszmatformat.so",
+        "path_type": "hardlink",
+        "sha256": "b34b61c139dfa14a917856cbe2a9fbfa0fdecc03729de76d20491775641d1c24",
+        "sha256_in_prefix": "b34b61c139dfa14a917856cbe2a9fbfa0fdecc03729de76d20491775641d1c24",
+        "size_in_bytes": 59576
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/ghemicalformat.so",
+        "path_type": "hardlink",
+        "sha256": "9b6f2d054dad3b1ce1fbd6745bf62d4378198ef41e48bd82a4eb01d20e709274",
+        "sha256_in_prefix": "9b6f2d054dad3b1ce1fbd6745bf62d4378198ef41e48bd82a4eb01d20e709274",
+        "size_in_bytes": 39128
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/groformat.so",
+        "path_type": "hardlink",
+        "sha256": "4178d972134acd31d50d17f8ce52b0d2b78228e57827b4bbaa407f5087b8d596",
+        "sha256_in_prefix": "4178d972134acd31d50d17f8ce52b0d2b78228e57827b4bbaa407f5087b8d596",
+        "size_in_bytes": 64576
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/gromos96format.so",
+        "path_type": "hardlink",
+        "sha256": "619e86a610e2e3f47dba0a5dd8f0d0e96ad8d6b186f34f714458aa88b25fdf81",
+        "sha256_in_prefix": "619e86a610e2e3f47dba0a5dd8f0d0e96ad8d6b186f34f714458aa88b25fdf81",
+        "size_in_bytes": 33784
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/gulpformat.so",
+        "path_type": "hardlink",
+        "sha256": "ca73326388d0774c47e5f57f152ef58e972dd1a624ef614b383afbdf4e33bfe4",
+        "sha256_in_prefix": "ca73326388d0774c47e5f57f152ef58e972dd1a624ef614b383afbdf4e33bfe4",
+        "size_in_bytes": 43048
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/hinformat.so",
+        "path_type": "hardlink",
+        "sha256": "3e09726fa5b42757c136ddddd4c9598530350fcf13ade1ecfeb25b4c30c17137",
+        "sha256_in_prefix": "3e09726fa5b42757c136ddddd4c9598530350fcf13ade1ecfeb25b4c30c17137",
+        "size_in_bytes": 34488
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/inchiformat.so",
+        "path_type": "hardlink",
+        "sha256": "4204960fa54cc518b3745b065d64d3749885c35a2b0f3b5cec09f7c34842722a",
+        "sha256_in_prefix": "4204960fa54cc518b3745b065d64d3749885c35a2b0f3b5cec09f7c34842722a",
+        "size_in_bytes": 114736
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/jaguarformat.so",
+        "path_type": "hardlink",
+        "sha256": "551ccc70e1e40e4c3d87c7cb07129feac075b5c537a06df37ddd43822fe96796",
+        "sha256_in_prefix": "551ccc70e1e40e4c3d87c7cb07129feac075b5c537a06df37ddd43822fe96796",
+        "size_in_bytes": 44984
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/lmpdatformat.so",
+        "path_type": "hardlink",
+        "sha256": "9ddb5e47b0b3891446d4d64ef0ffda4589c8ba4d532d1de1912109441af3f2cc",
+        "sha256_in_prefix": "9ddb5e47b0b3891446d4d64ef0ffda4589c8ba4d532d1de1912109441af3f2cc",
+        "size_in_bytes": 59192
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/lpmdformat.so",
+        "path_type": "hardlink",
+        "sha256": "691e7ffa9f6cad096f4629ac9a5da18929c8987abc86cd07335665378889a211",
+        "sha256_in_prefix": "691e7ffa9f6cad096f4629ac9a5da18929c8987abc86cd07335665378889a211",
+        "size_in_bytes": 89816
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/mdffformat.so",
+        "path_type": "hardlink",
+        "sha256": "e2df17ecf8fbe0a9d4a4989f5e58bad40688cd8ae8435eeae4935193dcf39fbe",
+        "sha256_in_prefix": "e2df17ecf8fbe0a9d4a4989f5e58bad40688cd8ae8435eeae4935193dcf39fbe",
+        "size_in_bytes": 82680
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/mdlformat.so",
+        "path_type": "hardlink",
+        "sha256": "f513e897d9afda9b27e0dccd6a5cc8079920fd091ea22d70ba9c1a6ac0b1ee6b",
+        "sha256_in_prefix": "f513e897d9afda9b27e0dccd6a5cc8079920fd091ea22d70ba9c1a6ac0b1ee6b",
+        "size_in_bytes": 167456
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/mmcifformat.so",
+        "path_type": "hardlink",
+        "sha256": "5db3c501af48699b508eb70e37ac66e9b6839655d23705edb6f8dbc411c15b86",
+        "sha256_in_prefix": "5db3c501af48699b508eb70e37ac66e9b6839655d23705edb6f8dbc411c15b86",
+        "size_in_bytes": 106744
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/mmodformat.so",
+        "path_type": "hardlink",
+        "sha256": "1fe20ccb579ddfddf8e9a0c33a0206a5d351a54f065bed0f4842b04365d1a375",
+        "sha256_in_prefix": "1fe20ccb579ddfddf8e9a0c33a0206a5d351a54f065bed0f4842b04365d1a375",
+        "size_in_bytes": 44568
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/mol2format.so",
+        "path_type": "hardlink",
+        "sha256": "d270ccde04e2ae7f25b330287441b1da16eac018f50d810a22dff8a81e0befba",
+        "sha256_in_prefix": "d270ccde04e2ae7f25b330287441b1da16eac018f50d810a22dff8a81e0befba",
+        "size_in_bytes": 69720
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/moldenformat.so",
+        "path_type": "hardlink",
+        "sha256": "dfee1adba509f5b345c744650543adbc05d8b34fb5d6af25a1da73e6c8867f89",
+        "sha256_in_prefix": "dfee1adba509f5b345c744650543adbc05d8b34fb5d6af25a1da73e6c8867f89",
+        "size_in_bytes": 68824
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/molproformat.so",
+        "path_type": "hardlink",
+        "sha256": "0fa375dc6c9dc077d03efe940320476a3a779a46b6991b30766bf1fc26951493",
+        "sha256_in_prefix": "0fa375dc6c9dc077d03efe940320476a3a779a46b6991b30766bf1fc26951493",
+        "size_in_bytes": 58504
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/molreport.so",
+        "path_type": "hardlink",
+        "sha256": "695a17e9882d8f77175be491bdfaa8dc173dfcac316a30b035a2faa0d7c184a9",
+        "sha256_in_prefix": "695a17e9882d8f77175be491bdfaa8dc173dfcac316a30b035a2faa0d7c184a9",
+        "size_in_bytes": 37808
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/mopacformat.so",
+        "path_type": "hardlink",
+        "sha256": "46c2b2717d018915dd6a40a423ff9186d427af70e9cb5fd55351d0ca4544bc7a",
+        "sha256_in_prefix": "46c2b2717d018915dd6a40a423ff9186d427af70e9cb5fd55351d0ca4544bc7a",
+        "size_in_bytes": 92048
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/mpdformat.so",
+        "path_type": "hardlink",
+        "sha256": "c3821717ff80411bced3c3b6999a047d616ee97d0c94f121ed30697fbde6537d",
+        "sha256_in_prefix": "c3821717ff80411bced3c3b6999a047d616ee97d0c94f121ed30697fbde6537d",
+        "size_in_bytes": 38792
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/mpqcformat.so",
+        "path_type": "hardlink",
+        "sha256": "6fe0b5bfea6d1b01accb77f3a05e30dc6abb3a4858589f67e92d7de582d33f28",
+        "sha256_in_prefix": "6fe0b5bfea6d1b01accb77f3a05e30dc6abb3a4858589f67e92d7de582d33f28",
+        "size_in_bytes": 34536
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/msiformat.so",
+        "path_type": "hardlink",
+        "sha256": "3b4c902edf7e5c7ceb86c5586f47f52cb0aeb5792746275fc1d92d0e83a96754",
+        "sha256_in_prefix": "3b4c902edf7e5c7ceb86c5586f47f52cb0aeb5792746275fc1d92d0e83a96754",
+        "size_in_bytes": 39600
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/msmsformat.so",
+        "path_type": "hardlink",
+        "sha256": "1e43620a38bb127a9653d0f22ffb2e95e228f936f2037fa09cce3cb0a82d850e",
+        "sha256_in_prefix": "1e43620a38bb127a9653d0f22ffb2e95e228f936f2037fa09cce3cb0a82d850e",
+        "size_in_bytes": 25200
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/nulformat.so",
+        "path_type": "hardlink",
+        "sha256": "dcb06b163dc359be1fa937e2bb3b7b78ed348011c270d7324a58122fb7c18a49",
+        "sha256_in_prefix": "dcb06b163dc359be1fa937e2bb3b7b78ed348011c270d7324a58122fb7c18a49",
+        "size_in_bytes": 23608
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/nwchemformat.so",
+        "path_type": "hardlink",
+        "sha256": "eb8be0f294d3d15cc9de4f4837f41340197c60f0d2f1448f170819c9b048591d",
+        "sha256_in_prefix": "eb8be0f294d3d15cc9de4f4837f41340197c60f0d2f1448f170819c9b048591d",
+        "size_in_bytes": 101360
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/opendxformat.so",
+        "path_type": "hardlink",
+        "sha256": "f4cb5c59b34db0c382f8564e17742d360597cec63e9a18dc7389c7ef03532174",
+        "sha256_in_prefix": "f4cb5c59b34db0c382f8564e17742d360597cec63e9a18dc7389c7ef03532174",
+        "size_in_bytes": 53256
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/orcaformat.so",
+        "path_type": "hardlink",
+        "sha256": "7df5ad37112d8f9b563575b5762ce11323a8d4866ef113d4d8a9133efce8582f",
+        "sha256_in_prefix": "7df5ad37112d8f9b563575b5762ce11323a8d4866ef113d4d8a9133efce8582f",
+        "size_in_bytes": 97104
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/outformat.so",
+        "path_type": "hardlink",
+        "sha256": "65cf38f01312f18bd28879f7dc4256b76913c379b452b7665d8383f6fab0c269",
+        "sha256_in_prefix": "65cf38f01312f18bd28879f7dc4256b76913c379b452b7665d8383f6fab0c269",
+        "size_in_bytes": 38184
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/painterformat.so",
+        "path_type": "hardlink",
+        "sha256": "ded55ccbe5282ca25c5b748d97d1cbc56acf547e4537e07e399b088b0e6692e9",
+        "sha256_in_prefix": "ded55ccbe5282ca25c5b748d97d1cbc56acf547e4537e07e399b088b0e6692e9",
+        "size_in_bytes": 48536
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/pcmodelformat.so",
+        "path_type": "hardlink",
+        "sha256": "833296614c48090f8f653e5bf4d13c37125323cb65788410c932a56682a781db",
+        "sha256_in_prefix": "833296614c48090f8f653e5bf4d13c37125323cb65788410c932a56682a781db",
+        "size_in_bytes": 39520
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/pdbformat.so",
+        "path_type": "hardlink",
+        "sha256": "533d5ebbbe8b094ab777480555f862d5e671ece80aee0e485b81a438822a9383",
+        "sha256_in_prefix": "533d5ebbbe8b094ab777480555f862d5e671ece80aee0e485b81a438822a9383",
+        "size_in_bytes": 98112
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/pdbqtformat.so",
+        "path_type": "hardlink",
+        "sha256": "fa64e873eb9f07d84a3b059c1a926bf0a7a08d13657c36e4d0a2349db044b76a",
+        "sha256_in_prefix": "fa64e873eb9f07d84a3b059c1a926bf0a7a08d13657c36e4d0a2349db044b76a",
+        "size_in_bytes": 120192
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/plugin_charges.so",
+        "path_type": "hardlink",
+        "sha256": "6b0a0ccf877b1ab5aab71ef0f0bfb61cca275b2f6943cd8d7173b6700f5e3afa",
+        "sha256_in_prefix": "6b0a0ccf877b1ab5aab71ef0f0bfb61cca275b2f6943cd8d7173b6700f5e3afa",
+        "size_in_bytes": 343168
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/plugin_descriptors.so",
+        "path_type": "hardlink",
+        "sha256": "e72e3331b10b33754e6ee4fcfb5548075db9a98e7b42ac205d5f7de6a0a78408",
+        "sha256_in_prefix": "e72e3331b10b33754e6ee4fcfb5548075db9a98e7b42ac205d5f7de6a0a78408",
+        "size_in_bytes": 88976
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/plugin_fingerprints.so",
+        "path_type": "hardlink",
+        "sha256": "cf6ce0839e3980d085c59bc6651ee2fb3b0927238c517f763dfaf13587c09d96",
+        "sha256_in_prefix": "cf6ce0839e3980d085c59bc6651ee2fb3b0927238c517f763dfaf13587c09d96",
+        "size_in_bytes": 102672
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/plugin_forcefields.so",
+        "path_type": "hardlink",
+        "sha256": "b742cdab729a04ec6b397ca67720db78062f68ac7306bb1bc514e27ef6d28ddb",
+        "sha256_in_prefix": "b742cdab729a04ec6b397ca67720db78062f68ac7306bb1bc514e27ef6d28ddb",
+        "size_in_bytes": 525408
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/plugin_ops.so",
+        "path_type": "hardlink",
+        "sha256": "46ea4d90416af9d785d4d9500a02c468a3c1effcaf292520671c9ff612bb2ac3",
+        "sha256_in_prefix": "46ea4d90416af9d785d4d9500a02c468a3c1effcaf292520671c9ff612bb2ac3",
+        "size_in_bytes": 357984
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/png2format.so",
+        "path_type": "hardlink",
+        "sha256": "4be948a2eb24f84fbc2f2dd06a5492c0e490976fd8f09dd1bc9fdc921997e0be",
+        "sha256_in_prefix": "4be948a2eb24f84fbc2f2dd06a5492c0e490976fd8f09dd1bc9fdc921997e0be",
+        "size_in_bytes": 65840
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/pngformat.so",
+        "path_type": "hardlink",
+        "sha256": "c1d2a4bbbb71a7506f769a7e86f350d21becf2714c08a10080a3a103ac59a83f",
+        "sha256_in_prefix": "c1d2a4bbbb71a7506f769a7e86f350d21becf2714c08a10080a3a103ac59a83f",
+        "size_in_bytes": 39016
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/pointcloudformat.so",
+        "path_type": "hardlink",
+        "sha256": "d3606ed735dffaf4fefa520f624214cefdfab957564964376ec4266ec7ea50e4",
+        "sha256_in_prefix": "d3606ed735dffaf4fefa520f624214cefdfab957564964376ec4266ec7ea50e4",
+        "size_in_bytes": 38728
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/posformat.so",
+        "path_type": "hardlink",
+        "sha256": "30bf8cc9b07014e15cf5725b988910f26dcc80abca49788b1b2f656ec4ab7d76",
+        "sha256_in_prefix": "30bf8cc9b07014e15cf5725b988910f26dcc80abca49788b1b2f656ec4ab7d76",
+        "size_in_bytes": 44184
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/povrayformat.so",
+        "path_type": "hardlink",
+        "sha256": "5f8f5babe44dbb78bcc403fab33c80b7ebd2ff1f4d2efd180ff0ac14d3b2a230",
+        "sha256_in_prefix": "5f8f5babe44dbb78bcc403fab33c80b7ebd2ff1f4d2efd180ff0ac14d3b2a230",
+        "size_in_bytes": 78544
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/pqrformat.so",
+        "path_type": "hardlink",
+        "sha256": "ce7cd46277e9fac2ae24828ca23aee2c9f46c39a26bb1aa8a12adc3c805f9b90",
+        "sha256_in_prefix": "ce7cd46277e9fac2ae24828ca23aee2c9f46c39a26bb1aa8a12adc3c805f9b90",
+        "size_in_bytes": 68336
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/pubchem.so",
+        "path_type": "hardlink",
+        "sha256": "7b6a022b3170b6560eaec889bf27e892d49bc8b84ff7a79db2b6b8e14aec866b",
+        "sha256_in_prefix": "7b6a022b3170b6560eaec889bf27e892d49bc8b84ff7a79db2b6b8e14aec866b",
+        "size_in_bytes": 61640
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/pubchemjsonformat.so",
+        "path_type": "hardlink",
+        "sha256": "be0507e00c7d7a35d1f322a89ecdd37ae750ca99feaee63209e5e167bd6753cf",
+        "sha256_in_prefix": "be0507e00c7d7a35d1f322a89ecdd37ae750ca99feaee63209e5e167bd6753cf",
+        "size_in_bytes": 157040
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/pwscfformat.so",
+        "path_type": "hardlink",
+        "sha256": "dc187bd8b6e024d7dc14b42f3a28210c6db40c6bfdc5c610242d5c708cd47f07",
+        "sha256_in_prefix": "dc187bd8b6e024d7dc14b42f3a28210c6db40c6bfdc5c610242d5c708cd47f07",
+        "size_in_bytes": 38952
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/qchemformat.so",
+        "path_type": "hardlink",
+        "sha256": "a8ccfcf16fd3a23bfb3abe6c1b5dd399a07f00f19657d3774cf70ef7695505df",
+        "sha256_in_prefix": "a8ccfcf16fd3a23bfb3abe6c1b5dd399a07f00f19657d3774cf70ef7695505df",
+        "size_in_bytes": 64056
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/reportformat.so",
+        "path_type": "hardlink",
+        "sha256": "986533e586117c48f6bc4fb536f0f09d295d2578d0b718e946dd088a63068f98",
+        "sha256_in_prefix": "986533e586117c48f6bc4fb536f0f09d295d2578d0b718e946dd088a63068f98",
+        "size_in_bytes": 43888
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/rinchiformat.so",
+        "path_type": "hardlink",
+        "sha256": "1ec2fffe760e3298196524547737fcfacea94fac355b6717b112be34696bcdc9",
+        "sha256_in_prefix": "1ec2fffe760e3298196524547737fcfacea94fac355b6717b112be34696bcdc9",
+        "size_in_bytes": 53232
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/rsmiformat.so",
+        "path_type": "hardlink",
+        "sha256": "aec3fc7a83a91d16bdcb9c24fb67741397c86e0582341099a8009c54943da174",
+        "sha256_in_prefix": "aec3fc7a83a91d16bdcb9c24fb67741397c86e0582341099a8009c54943da174",
+        "size_in_bytes": 57912
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/rxnformat.so",
+        "path_type": "hardlink",
+        "sha256": "a596a1aba1ed38bf2ea7830208b0b751e2857973304a234336d9deffee170ed2",
+        "sha256_in_prefix": "a596a1aba1ed38bf2ea7830208b0b751e2857973304a234336d9deffee170ed2",
+        "size_in_bytes": 44112
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/shelxformat.so",
+        "path_type": "hardlink",
+        "sha256": "7ed83bef089d651564d41890f88e57c455eee40d3f4483590fcc539d0abd475e",
+        "sha256_in_prefix": "7ed83bef089d651564d41890f88e57c455eee40d3f4483590fcc539d0abd475e",
+        "size_in_bytes": 34128
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/siestaformat.so",
+        "path_type": "hardlink",
+        "sha256": "2b2ad76047f46d22cb0a2c5d2c6e30b1fcd584d752e352fb86af6556af22df8d",
+        "sha256_in_prefix": "2b2ad76047f46d22cb0a2c5d2c6e30b1fcd584d752e352fb86af6556af22df8d",
+        "size_in_bytes": 64352
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/smilesformat.so",
+        "path_type": "hardlink",
+        "sha256": "7357f3545abe25c16635062b4da96b0449dadc867abe978d334398c61352da8e",
+        "sha256_in_prefix": "7357f3545abe25c16635062b4da96b0449dadc867abe978d334398c61352da8e",
+        "size_in_bytes": 218144
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/smileyformat.so",
+        "path_type": "hardlink",
+        "sha256": "b417f55b88c86e8f0e3d74d9df33ff564c137969aff3d17f547585e2061cc92f",
+        "sha256_in_prefix": "b417f55b88c86e8f0e3d74d9df33ff564c137969aff3d17f547585e2061cc92f",
+        "size_in_bytes": 88496
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/stlformat.so",
+        "path_type": "hardlink",
+        "sha256": "a17d3ea62c758c1cd324357768543358f5ecc1e61fc82de543b5f8252072de3a",
+        "sha256_in_prefix": "a17d3ea62c758c1cd324357768543358f5ecc1e61fc82de543b5f8252072de3a",
+        "size_in_bytes": 33976
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/svgformat.so",
+        "path_type": "hardlink",
+        "sha256": "5c6f2f8d2e331be175953585dce17cdafdbe58f34f85dcccb44ba684e37a4aca",
+        "sha256_in_prefix": "5c6f2f8d2e331be175953585dce17cdafdbe58f34f85dcccb44ba684e37a4aca",
+        "size_in_bytes": 63440
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/textformat.so",
+        "path_type": "hardlink",
+        "sha256": "c9f332af2f9092c9a1a48e6efc63ed8731644510edc0a4c64782e8601c521da3",
+        "sha256_in_prefix": "c9f332af2f9092c9a1a48e6efc63ed8731644510edc0a4c64782e8601c521da3",
+        "size_in_bytes": 29416
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/thermoformat.so",
+        "path_type": "hardlink",
+        "sha256": "9939feb717c16ef12c98b0a0939a823519cbebf7cb2ee5d8991f62a89acf6edf",
+        "sha256_in_prefix": "9939feb717c16ef12c98b0a0939a823519cbebf7cb2ee5d8991f62a89acf6edf",
+        "size_in_bytes": 44848
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/tinkerformat.so",
+        "path_type": "hardlink",
+        "sha256": "7c7aa50fb8f7c1a32a1aa975825176f9dbdedc3269569e87b700a3d78e111382",
+        "sha256_in_prefix": "7c7aa50fb8f7c1a32a1aa975825176f9dbdedc3269569e87b700a3d78e111382",
+        "size_in_bytes": 49312
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/titleformat.so",
+        "path_type": "hardlink",
+        "sha256": "b958f3757e89370af8264db683fd9dec133695a56314969827cd0c96888a5b3b",
+        "sha256_in_prefix": "b958f3757e89370af8264db683fd9dec133695a56314969827cd0c96888a5b3b",
+        "size_in_bytes": 29440
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/turbomoleformat.so",
+        "path_type": "hardlink",
+        "sha256": "6b68a36c9c37df670775cc02dc01775270466e41057ef25bf5e8996eb16fd017",
+        "sha256_in_prefix": "6b68a36c9c37df670775cc02dc01775270466e41057ef25bf5e8996eb16fd017",
+        "size_in_bytes": 34368
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/unichemformat.so",
+        "path_type": "hardlink",
+        "sha256": "053c3b0e2bf0f5a810ee1877ee80ae4df4ccdec9996a85eed0889c35c018867f",
+        "sha256_in_prefix": "053c3b0e2bf0f5a810ee1877ee80ae4df4ccdec9996a85eed0889c35c018867f",
+        "size_in_bytes": 34320
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/vaspformat.so",
+        "path_type": "hardlink",
+        "sha256": "47716199d7eb57496e953900df5215450c254be2c4c3495efe26a2f14cfe95f8",
+        "sha256_in_prefix": "47716199d7eb57496e953900df5215450c254be2c4c3495efe26a2f14cfe95f8",
+        "size_in_bytes": 109392
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/viewmolformat.so",
+        "path_type": "hardlink",
+        "sha256": "a5ff1e103dc9f8d72d12cb792cde389b37fe77842b6613cda618bce929d1d401",
+        "sha256_in_prefix": "a5ff1e103dc9f8d72d12cb792cde389b37fe77842b6613cda618bce929d1d401",
+        "size_in_bytes": 34040
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/wlnformat.so",
+        "path_type": "hardlink",
+        "sha256": "953bcdc6e1c638db3b2706b813c1cfa0d3ec87ee29800b6b4e67646a8b5ed24c",
+        "sha256_in_prefix": "953bcdc6e1c638db3b2706b813c1cfa0d3ec87ee29800b6b4e67646a8b5ed24c",
+        "size_in_bytes": 84864
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/xedformat.so",
+        "path_type": "hardlink",
+        "sha256": "07c9244828fc454d2d150c6e0f2708a93096df46e962e399c7159d451d63d643",
+        "sha256_in_prefix": "07c9244828fc454d2d150c6e0f2708a93096df46e962e399c7159d451d63d643",
+        "size_in_bytes": 33440
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/xmlformat.so",
+        "path_type": "hardlink",
+        "sha256": "9acc1f5f971d35a53d3793fda1cab2c3bb5a49cfc91ab6d830ff08eeb6460867",
+        "sha256_in_prefix": "9acc1f5f971d35a53d3793fda1cab2c3bb5a49cfc91ab6d830ff08eeb6460867",
+        "size_in_bytes": 55472
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/xsfformat.so",
+        "path_type": "hardlink",
+        "sha256": "cfe1acb646bcce72d4543952408697e0c2ac55215bf639f0523778d4422c4d4d",
+        "sha256_in_prefix": "cfe1acb646bcce72d4543952408697e0c2ac55215bf639f0523778d4422c4d4d",
+        "size_in_bytes": 34376
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/xtcformat.so",
+        "path_type": "hardlink",
+        "sha256": "c5d1bbfa55fe0fa3724d9ec84988d4fefd6e205e98efac93715a42a377402729",
+        "sha256_in_prefix": "c5d1bbfa55fe0fa3724d9ec84988d4fefd6e205e98efac93715a42a377402729",
+        "size_in_bytes": 52784
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/xyzformat.so",
+        "path_type": "hardlink",
+        "sha256": "0d4e83f9b7c9f8465ada6959414bb65b6a0e897fa9b9e4d8452c1c0e87dfa536",
+        "sha256_in_prefix": "0d4e83f9b7c9f8465ada6959414bb65b6a0e897fa9b9e4d8452c1c0e87dfa536",
+        "size_in_bytes": 48720
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/yasaraformat.so",
+        "path_type": "hardlink",
+        "sha256": "67aa419ea8791da311d2eee2dc422593486e12d92529df6a6c2aa2b6cdd43393",
+        "sha256_in_prefix": "67aa419ea8791da311d2eee2dc422593486e12d92529df6a6c2aa2b6cdd43393",
+        "size_in_bytes": 45880
+      },
+      {
+        "_path": "lib/openbabel/3.1.0/zindoformat.so",
+        "path_type": "hardlink",
+        "sha256": "d90e339f86578a5ee049deb3a5e9d5abcf772813f678865927e4b9ffaed69b2a",
+        "sha256_in_prefix": "d90e339f86578a5ee049deb3a5e9d5abcf772813f678865927e4b9ffaed69b2a",
+        "size_in_bytes": 29288
+      },
+      {
+        "_path": "lib/pkgconfig/openbabel-3.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/openbabel_1701376235703/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "6ab9b3e5b186efb874c4c322e5e7acd899b0db3ab2f3c5d7322b80b2f5edb9bf",
+        "sha256_in_prefix": "21ea70bc7c7b371b83ead76e6a2ea159e6ad3e993fa641b98da9bc3f86bb3c17",
+        "size_in_bytes": 503
+      },
+      {
+        "_path": "lib/python3.12/site-packages/openbabel/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1406634654efcae2bb99b5412b1ddf237f4872592702c3f66d16999c823e8b6f",
+        "sha256_in_prefix": "1406634654efcae2bb99b5412b1ddf237f4872592702c3f66d16999c823e8b6f",
+        "size_in_bytes": 527
+      },
+      {
+        "_path": "lib/python3.12/site-packages/openbabel/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd57aeb30e8e7405b2a296af9fb12f93d47908fa0452f62199cce47b071e4b4b",
+        "sha256_in_prefix": "fd57aeb30e8e7405b2a296af9fb12f93d47908fa0452f62199cce47b071e4b4b",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "lib/python3.12/site-packages/openbabel/__pycache__/openbabel.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e5a5e4ad22846b5f449e2a0d721c2c9280667e4ab9f9dde3f8973007c31c3cf",
+        "sha256_in_prefix": "2e5a5e4ad22846b5f449e2a0d721c2c9280667e4ab9f9dde3f8973007c31c3cf",
+        "size_in_bytes": 347990
+      },
+      {
+        "_path": "lib/python3.12/site-packages/openbabel/__pycache__/pybel.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0424c4004539b27864cf6309e256ba669fc6ca321094daeb2c0c0a3aaf9473a8",
+        "sha256_in_prefix": "0424c4004539b27864cf6309e256ba669fc6ca321094daeb2c0c0a3aaf9473a8",
+        "size_in_bytes": 54732
+      },
+      {
+        "_path": "lib/python3.12/site-packages/openbabel/_openbabel.so",
+        "path_type": "hardlink",
+        "sha256": "8a69bb2d0bc13aa229585f0a8796db0f3a982318ef1f1aef5a91602de221bc1c",
+        "sha256_in_prefix": "8a69bb2d0bc13aa229585f0a8796db0f3a982318ef1f1aef5a91602de221bc1c",
+        "size_in_bytes": 3559544
+      },
+      {
+        "_path": "lib/python3.12/site-packages/openbabel/openbabel.py",
+        "path_type": "hardlink",
+        "sha256": "da7a9b1f6f2ffb4a268a69914df3906d88fd63ab2651fc8322eb30df41e1df7e",
+        "sha256_in_prefix": "da7a9b1f6f2ffb4a268a69914df3906d88fd63ab2651fc8322eb30df41e1df7e",
+        "size_in_bytes": 229344
+      },
+      {
+        "_path": "lib/python3.12/site-packages/openbabel/pybel.py",
+        "path_type": "hardlink",
+        "sha256": "5f29507e42049fca2c24e0225d19f522ac68ffa2d148f37c840334db4a10ded9",
+        "sha256_in_prefix": "5f29507e42049fca2c24e0225d19f522ac68ffa2d148f37c840334db4a10ded9",
+        "size_in_bytes": 34668
+      },
+      {
+        "_path": "share/man/man1/obabel.1",
+        "path_type": "hardlink",
+        "sha256": "968c44b5a5c384862932f24cc65a6f2c3bbe520a56ca24fe836b8f31ca55b14e",
+        "sha256_in_prefix": "968c44b5a5c384862932f24cc65a6f2c3bbe520a56ca24fe836b8f31ca55b14e",
+        "size_in_bytes": 9454
+      },
+      {
+        "_path": "share/man/man1/obchiral.1",
+        "path_type": "hardlink",
+        "sha256": "4b197ea1379a961a048568e71e995c03cf4b9c88fc0e6f3fc24a2ce1aa28e5f0",
+        "sha256_in_prefix": "4b197ea1379a961a048568e71e995c03cf4b9c88fc0e6f3fc24a2ce1aa28e5f0",
+        "size_in_bytes": 1574
+      },
+      {
+        "_path": "share/man/man1/obconformer.1",
+        "path_type": "hardlink",
+        "sha256": "caa8c7caceb169ca2026df08e1448116108cca1454605cf417a44f12c12ae606",
+        "sha256_in_prefix": "caa8c7caceb169ca2026df08e1448116108cca1454605cf417a44f12c12ae606",
+        "size_in_bytes": 1850
+      },
+      {
+        "_path": "share/man/man1/obdistgen.1",
+        "path_type": "hardlink",
+        "sha256": "7029c558ec19485cd8b4cf219d8ef8d957547f25260cfaaba7490a8990fdca90",
+        "sha256_in_prefix": "7029c558ec19485cd8b4cf219d8ef8d957547f25260cfaaba7490a8990fdca90",
+        "size_in_bytes": 1388
+      },
+      {
+        "_path": "share/man/man1/obenergy.1",
+        "path_type": "hardlink",
+        "sha256": "d405e053f222b8f12a9402073dd30390d319795cc6e0ea7bec85bdd79698e170",
+        "sha256_in_prefix": "d405e053f222b8f12a9402073dd30390d319795cc6e0ea7bec85bdd79698e170",
+        "size_in_bytes": 2131
+      },
+      {
+        "_path": "share/man/man1/obfit.1",
+        "path_type": "hardlink",
+        "sha256": "5156ec8967abcd726797fed31d94945d7386f53c12bb4716908fef4993863a09",
+        "sha256_in_prefix": "5156ec8967abcd726797fed31d94945d7386f53c12bb4716908fef4993863a09",
+        "size_in_bytes": 2312
+      },
+      {
+        "_path": "share/man/man1/obgen.1",
+        "path_type": "hardlink",
+        "sha256": "cef94a6891ac68d7d3d455952a3fdc4302d797fa804d2162cc89b933168b6be5",
+        "sha256_in_prefix": "cef94a6891ac68d7d3d455952a3fdc4302d797fa804d2162cc89b933168b6be5",
+        "size_in_bytes": 2099
+      },
+      {
+        "_path": "share/man/man1/obgrep.1",
+        "path_type": "hardlink",
+        "sha256": "b9db7d3c0a44f8eb1eebc465484b78b559e0d08fc661e6e7b7083c3b6f67b2c0",
+        "sha256_in_prefix": "b9db7d3c0a44f8eb1eebc465484b78b559e0d08fc661e6e7b7083c3b6f67b2c0",
+        "size_in_bytes": 2902
+      },
+      {
+        "_path": "share/man/man1/obgui.1",
+        "path_type": "hardlink",
+        "sha256": "65f3a2e83c072a14aef0a953903742a2b5371f72de543497614fd8cb21cc8acd",
+        "sha256_in_prefix": "65f3a2e83c072a14aef0a953903742a2b5371f72de543497614fd8cb21cc8acd",
+        "size_in_bytes": 731
+      },
+      {
+        "_path": "share/man/man1/obminimize.1",
+        "path_type": "hardlink",
+        "sha256": "132a5ad91bbdbebe0c0ef1d1e7f87961f463c0965c82a0dbcc35ae2c6eb09850",
+        "sha256_in_prefix": "132a5ad91bbdbebe0c0ef1d1e7f87961f463c0965c82a0dbcc35ae2c6eb09850",
+        "size_in_bytes": 2498
+      },
+      {
+        "_path": "share/man/man1/obprobe.1",
+        "path_type": "hardlink",
+        "sha256": "998298719cb757d05930cbc4162332f08c065f2875f4d4d11b3ea345b9dd9637",
+        "sha256_in_prefix": "998298719cb757d05930cbc4162332f08c065f2875f4d4d11b3ea345b9dd9637",
+        "size_in_bytes": 2250
+      },
+      {
+        "_path": "share/man/man1/obprop.1",
+        "path_type": "hardlink",
+        "sha256": "b1a3b412b8c24235677149a01851278c0c9cc6382f59b8743d402bbf62a693e7",
+        "sha256_in_prefix": "b1a3b412b8c24235677149a01851278c0c9cc6382f59b8743d402bbf62a693e7",
+        "size_in_bytes": 2097
+      },
+      {
+        "_path": "share/man/man1/obrms.1",
+        "path_type": "hardlink",
+        "sha256": "c95a3eab80c421512defc302b119121f8f0c3c6630cd07852618759846f75bad",
+        "sha256_in_prefix": "c95a3eab80c421512defc302b119121f8f0c3c6630cd07852618759846f75bad",
+        "size_in_bytes": 2350
+      },
+      {
+        "_path": "share/man/man1/obrotamer.1",
+        "path_type": "hardlink",
+        "sha256": "3571634cb50a10fcc1281c7c8ff6fdef02ea49a2eac56a10987b9d110dfc9053",
+        "sha256_in_prefix": "3571634cb50a10fcc1281c7c8ff6fdef02ea49a2eac56a10987b9d110dfc9053",
+        "size_in_bytes": 1766
+      },
+      {
+        "_path": "share/man/man1/obrotate.1",
+        "path_type": "hardlink",
+        "sha256": "189c9d23cf6efed9dc2bfdaf1331df179dfa8a308093709742524b3fa472aed4",
+        "sha256_in_prefix": "189c9d23cf6efed9dc2bfdaf1331df179dfa8a308093709742524b3fa472aed4",
+        "size_in_bytes": 3173
+      },
+      {
+        "_path": "share/man/man1/obspectrophore.1",
+        "path_type": "hardlink",
+        "sha256": "ed47dc1b22eacf99a1d393475ea9ccbbfa4d5e3982d137a321d7c6c331492d34",
+        "sha256_in_prefix": "ed47dc1b22eacf99a1d393475ea9ccbbfa4d5e3982d137a321d7c6c331492d34",
+        "size_in_bytes": 3064
+      },
+      {
+        "_path": "share/man/man1/obsym.1",
+        "path_type": "hardlink",
+        "sha256": "2ad6fc29238c26d18bf1429a6f8789887114b0615a8e3deba169fed4f0523eb1",
+        "sha256_in_prefix": "2ad6fc29238c26d18bf1429a6f8789887114b0615a8e3deba169fed4f0523eb1",
+        "size_in_bytes": 1376
+      },
+      {
+        "_path": "share/man/man1/obtautomer.1",
+        "path_type": "hardlink",
+        "sha256": "1e44f85f7581a73edc1510494af99e11766c5b2dbbef4e97d7ba40aa6cff2225",
+        "sha256_in_prefix": "1e44f85f7581a73edc1510494af99e11766c5b2dbbef4e97d7ba40aa6cff2225",
+        "size_in_bytes": 1412
+      },
+      {
+        "_path": "share/man/man1/obthermo.1",
+        "path_type": "hardlink",
+        "sha256": "ce8838379e3b1d6a3f68dfa8fbac13b3a6d2b3a16acfb321b3992a2bba6613d5",
+        "sha256_in_prefix": "ce8838379e3b1d6a3f68dfa8fbac13b3a6d2b3a16acfb321b3992a2bba6613d5",
+        "size_in_bytes": 1688
+      },
+      {
+        "_path": "share/man/man1/roundtrip.1",
+        "path_type": "hardlink",
+        "sha256": "c4bcb81c21fd06aea0ef335c430c671cc5582ccbb9c55bb350d1329d183139ed",
+        "sha256_in_prefix": "c4bcb81c21fd06aea0ef335c430c671cc5582ccbb9c55bb350d1329d183139ed",
+        "size_in_bytes": 1650
+      },
+      {
+        "_path": "share/openbabel/3.1.0/MACCS.txt",
+        "path_type": "hardlink",
+        "sha256": "d22edb5b565a3f69383153061d8d7baa9bc5e8a61ffee557c1d47a58ef32be47",
+        "sha256_in_prefix": "d22edb5b565a3f69383153061d8d7baa9bc5e8a61ffee557c1d47a58ef32be47",
+        "size_in_bytes": 8890
+      },
+      {
+        "_path": "share/openbabel/3.1.0/SMARTS_InteLigand.txt",
+        "path_type": "hardlink",
+        "sha256": "21ea618cc4559a0def4294a5c467f37d81cff6b847d0fb307fdac12474faf6be",
+        "sha256_in_prefix": "21ea618cc4559a0def4294a5c467f37d81cff6b847d0fb307fdac12474faf6be",
+        "size_in_bytes": 39230
+      },
+      {
+        "_path": "share/openbabel/3.1.0/UFF.prm",
+        "path_type": "hardlink",
+        "sha256": "934cb0e2ee1ef2102b2ae8dba74b1e9853b299bd7e26f695fb1fe6e55727bdc5",
+        "sha256_in_prefix": "934cb0e2ee1ef2102b2ae8dba74b1e9853b299bd7e26f695fb1fe6e55727bdc5",
+        "size_in_bytes": 12573
+      },
+      {
+        "_path": "share/openbabel/3.1.0/atomization-energies.txt",
+        "path_type": "hardlink",
+        "sha256": "02eec2180ca2d4fbb0cb25c5b6eee469d51d5d4874f6f7af62f24f58bfaf8da6",
+        "sha256_in_prefix": "02eec2180ca2d4fbb0cb25c5b6eee469d51d5d4874f6f7af62f24f58bfaf8da6",
+        "size_in_bytes": 690432
+      },
+      {
+        "_path": "share/openbabel/3.1.0/atomtyp.txt",
+        "path_type": "hardlink",
+        "sha256": "78e52637266ca914232a64f4979b03e0bc8be0a91b7036ec38039f2876be080a",
+        "sha256_in_prefix": "78e52637266ca914232a64f4979b03e0bc8be0a91b7036ec38039f2876be080a",
+        "size_in_bytes": 10155
+      },
+      {
+        "_path": "share/openbabel/3.1.0/babel_povray3.inc",
+        "path_type": "hardlink",
+        "sha256": "585957ee8a4f30256e5fe2b4aea705810dc855d443c85237898c2bc6809a78bb",
+        "sha256_in_prefix": "585957ee8a4f30256e5fe2b4aea705810dc855d443c85237898c2bc6809a78bb",
+        "size_in_bytes": 31822
+      },
+      {
+        "_path": "share/openbabel/3.1.0/bondtyp.txt",
+        "path_type": "hardlink",
+        "sha256": "f1d76f8940c110fda173f2443b16bcd761fc63c60a51ff0951fb6bd1eb0c347a",
+        "sha256_in_prefix": "f1d76f8940c110fda173f2443b16bcd761fc63c60a51ff0951fb6bd1eb0c347a",
+        "size_in_bytes": 5881
+      },
+      {
+        "_path": "share/openbabel/3.1.0/eem.txt",
+        "path_type": "hardlink",
+        "sha256": "77ca01de68bd9f7f3fe670fce72734ed141b4ddd6e93b4f487b92c81f6bfc969",
+        "sha256_in_prefix": "77ca01de68bd9f7f3fe670fce72734ed141b4ddd6e93b4f487b92c81f6bfc969",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "share/openbabel/3.1.0/eem2015ba.txt",
+        "path_type": "hardlink",
+        "sha256": "a9c45387ba0748b2c2e1f15024ec5e11ae7e321f0c21e9aaa1648729b15a6e6d",
+        "sha256_in_prefix": "a9c45387ba0748b2c2e1f15024ec5e11ae7e321f0c21e9aaa1648729b15a6e6d",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "share/openbabel/3.1.0/eem2015bm.txt",
+        "path_type": "hardlink",
+        "sha256": "5cd23a80a45be1e927b066d46fa64dd4b6a2c49655da8907818626f350cb2a39",
+        "sha256_in_prefix": "5cd23a80a45be1e927b066d46fa64dd4b6a2c49655da8907818626f350cb2a39",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "share/openbabel/3.1.0/eem2015bn.txt",
+        "path_type": "hardlink",
+        "sha256": "552f9d48b5d5b90c5a70add7e9ee32cf632fce2006265bfcb5056d256f90544e",
+        "sha256_in_prefix": "552f9d48b5d5b90c5a70add7e9ee32cf632fce2006265bfcb5056d256f90544e",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "share/openbabel/3.1.0/eem2015ha.txt",
+        "path_type": "hardlink",
+        "sha256": "f2ba63c3bf502a42602100da961797cbf9beca2ca640efd7057469a75364abcf",
+        "sha256_in_prefix": "f2ba63c3bf502a42602100da961797cbf9beca2ca640efd7057469a75364abcf",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "share/openbabel/3.1.0/eem2015hm.txt",
+        "path_type": "hardlink",
+        "sha256": "2a7b5e741641e5cc565c222df62078dc49623febfca34ea98e0fcf311845c76c",
+        "sha256_in_prefix": "2a7b5e741641e5cc565c222df62078dc49623febfca34ea98e0fcf311845c76c",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "share/openbabel/3.1.0/eem2015hn.txt",
+        "path_type": "hardlink",
+        "sha256": "82f89746a16059382d7b2b81c771480aa79f6f35e25b415e9c789ac5c50ec249",
+        "sha256_in_prefix": "82f89746a16059382d7b2b81c771480aa79f6f35e25b415e9c789ac5c50ec249",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "share/openbabel/3.1.0/eqeqIonizations.txt",
+        "path_type": "hardlink",
+        "sha256": "4da54f80d7711f002037f877d39297f0b3e9f3f652a49be9c542a870a41449cd",
+        "sha256_in_prefix": "4da54f80d7711f002037f877d39297f0b3e9f3f652a49be9c542a870a41449cd",
+        "size_in_bytes": 4874
+      },
+      {
+        "_path": "share/openbabel/3.1.0/gaff.dat",
+        "path_type": "hardlink",
+        "sha256": "96f034d4e61164bc17e78514fba3822707e9ff74d9992daa1ea906ff3f7e2e4b",
+        "sha256_in_prefix": "96f034d4e61164bc17e78514fba3822707e9ff74d9992daa1ea906ff3f7e2e4b",
+        "size_in_bytes": 338592
+      },
+      {
+        "_path": "share/openbabel/3.1.0/gaff.prm",
+        "path_type": "hardlink",
+        "sha256": "1899ca340376fe22fca0ba61572fcc408fb32e000783fb5819eff5a6dda443c1",
+        "sha256_in_prefix": "1899ca340376fe22fca0ba61572fcc408fb32e000783fb5819eff5a6dda443c1",
+        "size_in_bytes": 24540
+      },
+      {
+        "_path": "share/openbabel/3.1.0/ghemical.prm",
+        "path_type": "hardlink",
+        "sha256": "bd353c9a56b74cdaac6c96ecb8c3c5111f267141c90093e2484f0558866df197",
+        "sha256_in_prefix": "bd353c9a56b74cdaac6c96ecb8c3c5111f267141c90093e2484f0558866df197",
+        "size_in_bytes": 16754
+      },
+      {
+        "_path": "share/openbabel/3.1.0/logp.txt",
+        "path_type": "hardlink",
+        "sha256": "340dc83b23d813854e66096f9819e57bbac3c9af3044f9246dd07aacf66e64bf",
+        "sha256_in_prefix": "340dc83b23d813854e66096f9819e57bbac3c9af3044f9246dd07aacf66e64bf",
+        "size_in_bytes": 4357
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mmff94.ff",
+        "path_type": "hardlink",
+        "sha256": "9d15146b0fee2ca59def0524c39c0595a8374ac173fa0a2fd4c4b3e524a83c8e",
+        "sha256_in_prefix": "9d15146b0fee2ca59def0524c39c0595a8374ac173fa0a2fd4c4b3e524a83c8e",
+        "size_in_bytes": 565
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mmff94s.ff",
+        "path_type": "hardlink",
+        "sha256": "5175113fb3ce7eee6ef86655eb1444f64d8efa846953e40820244a0f81257fe2",
+        "sha256_in_prefix": "5175113fb3ce7eee6ef86655eb1444f64d8efa846953e40820244a0f81257fe2",
+        "size_in_bytes": 569
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mmffang.par",
+        "path_type": "hardlink",
+        "sha256": "f92d3da67485547b911b00f2dbdec2006266abe6141651dc735927618903e000",
+        "sha256_in_prefix": "f92d3da67485547b911b00f2dbdec2006266abe6141651dc735927618903e000",
+        "size_in_bytes": 100427
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mmffbndk.par",
+        "path_type": "hardlink",
+        "sha256": "8a12815fb74f9b51acf0c35670d5994d77b8f86a2e2258c9bd31b2fd76dc4972",
+        "sha256_in_prefix": "8a12815fb74f9b51acf0c35670d5994d77b8f86a2e2258c9bd31b2fd76dc4972",
+        "size_in_bytes": 2314
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mmffbond.par",
+        "path_type": "hardlink",
+        "sha256": "d5c35449f9f0e8f837085bcb151d218a29135ff4752cd978f07b945b28b31ea0",
+        "sha256_in_prefix": "d5c35449f9f0e8f837085bcb151d218a29135ff4752cd978f07b945b28b31ea0",
+        "size_in_bytes": 18856
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mmffchg.par",
+        "path_type": "hardlink",
+        "sha256": "5981e35adb32044b59981571a1ad35311b6b7d52ea22726e3c94c1846cd8c9cc",
+        "sha256_in_prefix": "5981e35adb32044b59981571a1ad35311b6b7d52ea22726e3c94c1846cd8c9cc",
+        "size_in_bytes": 14158
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mmffdef.par",
+        "path_type": "hardlink",
+        "sha256": "6c84f481e7739bc3a32e42f1fd166b6f33b337ca8dee4d3f61f889c6affd5e99",
+        "sha256_in_prefix": "6c84f481e7739bc3a32e42f1fd166b6f33b337ca8dee4d3f61f889c6affd5e99",
+        "size_in_bytes": 11165
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mmffdfsb.par",
+        "path_type": "hardlink",
+        "sha256": "7be7c5cffc48887510f64ce60a86828cc29199ae2d1c63d1ea48a90b4b6457d6",
+        "sha256_in_prefix": "7be7c5cffc48887510f64ce60a86828cc29199ae2d1c63d1ea48a90b4b6457d6",
+        "size_in_bytes": 1308
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mmffoop.par",
+        "path_type": "hardlink",
+        "sha256": "04e1214e822c2963167b0b480c4defb4ea45db4f39908be12ec183094fbacf33",
+        "sha256_in_prefix": "04e1214e822c2963167b0b480c4defb4ea45db4f39908be12ec183094fbacf33",
+        "size_in_bytes": 5047
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mmffpbci.par",
+        "path_type": "hardlink",
+        "sha256": "2b5e7300b076687c0cb68eeaa5dda8d9bf525fc4e45e3033c2a386e3ed8b3edc",
+        "sha256_in_prefix": "2b5e7300b076687c0cb68eeaa5dda8d9bf525fc4e45e3033c2a386e3ed8b3edc",
+        "size_in_bytes": 4322
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mmffprop.par",
+        "path_type": "hardlink",
+        "sha256": "858af09bf8abe7d962f159ee6c359fb8d45534143e978c90df4d0c76a096e501",
+        "sha256_in_prefix": "858af09bf8abe7d962f159ee6c359fb8d45534143e978c90df4d0c76a096e501",
+        "size_in_bytes": 4567
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mmffs_oop.par",
+        "path_type": "hardlink",
+        "sha256": "7285a78b193b6a70c614a83f22c551cb46dbb91062ec235443c3d8967aa4dc58",
+        "sha256_in_prefix": "7285a78b193b6a70c614a83f22c551cb46dbb91062ec235443c3d8967aa4dc58",
+        "size_in_bytes": 5074
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mmffs_tor.par",
+        "path_type": "hardlink",
+        "sha256": "90b279dac10f571c653acec129465b3bfcfc5a33ea5b1b9203bf619bf29f52b7",
+        "sha256_in_prefix": "90b279dac10f571c653acec129465b3bfcfc5a33ea5b1b9203bf619bf29f52b7",
+        "size_in_bytes": 55852
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mmffstbn.par",
+        "path_type": "hardlink",
+        "sha256": "20210a8d42f03a31d8014766417a547de28eba876767be174e1ada4a06597bbe",
+        "sha256_in_prefix": "20210a8d42f03a31d8014766417a547de28eba876767be174e1ada4a06597bbe",
+        "size_in_bytes": 12192
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mmfftor.par",
+        "path_type": "hardlink",
+        "sha256": "7a177831ef85766cbf9353706e76f72d572b7b8ec7d255a029653b56fe84ef70",
+        "sha256_in_prefix": "7a177831ef85766cbf9353706e76f72d572b7b8ec7d255a029653b56fe84ef70",
+        "size_in_bytes": 55768
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mmffvdw.par",
+        "path_type": "hardlink",
+        "sha256": "49533f22d26a4b1e309de17eaf771c2fde708b377f29b9dab8867c5e714d9657",
+        "sha256_in_prefix": "49533f22d26a4b1e309de17eaf771c2fde708b377f29b9dab8867c5e714d9657",
+        "size_in_bytes": 5942
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mpC.txt",
+        "path_type": "hardlink",
+        "sha256": "3fb20d9a0ce5a1e840e4e85e2a61388fd47f1040953c4470cd4be51111e39be4",
+        "sha256_in_prefix": "3fb20d9a0ce5a1e840e4e85e2a61388fd47f1040953c4470cd4be51111e39be4",
+        "size_in_bytes": 3386
+      },
+      {
+        "_path": "share/openbabel/3.1.0/mr.txt",
+        "path_type": "hardlink",
+        "sha256": "71cac51e068a3613465c903afa4a06fd71455e5b94b67fc8cd55e00b3551d7ab",
+        "sha256_in_prefix": "71cac51e068a3613465c903afa4a06fd71455e5b94b67fc8cd55e00b3551d7ab",
+        "size_in_bytes": 4127
+      },
+      {
+        "_path": "share/openbabel/3.1.0/patterns.txt",
+        "path_type": "hardlink",
+        "sha256": "1b7807112a55ea3dfd6737b64804cc30e99595b052f26496d86e32808638c12b",
+        "sha256_in_prefix": "1b7807112a55ea3dfd6737b64804cc30e99595b052f26496d86e32808638c12b",
+        "size_in_bytes": 3756
+      },
+      {
+        "_path": "share/openbabel/3.1.0/phmodel.txt",
+        "path_type": "hardlink",
+        "sha256": "fb291c7f8042c9fd3a8efda5f7ec5d4cec21886188785f6c8584af86b21f0ab5",
+        "sha256_in_prefix": "fb291c7f8042c9fd3a8efda5f7ec5d4cec21886188785f6c8584af86b21f0ab5",
+        "size_in_bytes": 7130
+      },
+      {
+        "_path": "share/openbabel/3.1.0/plugindefines.txt",
+        "path_type": "hardlink",
+        "sha256": "5e829d7d047d25b1cc764a2738004f866832408565ac1be6e95f7ce750b98fb5",
+        "sha256_in_prefix": "5e829d7d047d25b1cc764a2738004f866832408565ac1be6e95f7ce750b98fb5",
+        "size_in_bytes": 2400
+      },
+      {
+        "_path": "share/openbabel/3.1.0/psa.txt",
+        "path_type": "hardlink",
+        "sha256": "2ce26ce9a9765557c6616360d03492b4af8de0d436ec38327044972ca944d8a8",
+        "sha256_in_prefix": "2ce26ce9a9765557c6616360d03492b4af8de0d436ec38327044972ca944d8a8",
+        "size_in_bytes": 2418
+      },
+      {
+        "_path": "share/openbabel/3.1.0/qeq.txt",
+        "path_type": "hardlink",
+        "sha256": "c818e1cb262232016e14c21b42a43b3baa47742558ddb298d32e258c22ac1e83",
+        "sha256_in_prefix": "c818e1cb262232016e14c21b42a43b3baa47742558ddb298d32e258c22ac1e83",
+        "size_in_bytes": 3096
+      },
+      {
+        "_path": "share/openbabel/3.1.0/resdata.txt",
+        "path_type": "hardlink",
+        "sha256": "c1e604b1733a7fa9677634e181a95e5c3b29fa6ad2b008bc67724adf6dde3ff5",
+        "sha256_in_prefix": "c1e604b1733a7fa9677634e181a95e5c3b29fa6ad2b008bc67724adf6dde3ff5",
+        "size_in_bytes": 14696
+      },
+      {
+        "_path": "share/openbabel/3.1.0/rigid-fragments-index.txt",
+        "path_type": "hardlink",
+        "sha256": "9bbf52de0818b6114fc926947602e9ea09baac0a738e08364197b8b82414ad12",
+        "sha256_in_prefix": "9bbf52de0818b6114fc926947602e9ea09baac0a738e08364197b8b82414ad12",
+        "size_in_bytes": 157957
+      },
+      {
+        "_path": "share/openbabel/3.1.0/rigid-fragments.txt",
+        "path_type": "hardlink",
+        "sha256": "fdf554f5d0fd81c3c22f2870376ba5b29785195a6414135bb5ce2a4301bdf0f8",
+        "sha256_in_prefix": "fdf554f5d0fd81c3c22f2870376ba5b29785195a6414135bb5ce2a4301bdf0f8",
+        "size_in_bytes": 1936876
+      },
+      {
+        "_path": "share/openbabel/3.1.0/ring-fragments.txt",
+        "path_type": "hardlink",
+        "sha256": "b5bb4eae05393f236a021a861dd0950a81eef6575a2a157cdc3a02319ed954f8",
+        "sha256_in_prefix": "b5bb4eae05393f236a021a861dd0950a81eef6575a2a157cdc3a02319ed954f8",
+        "size_in_bytes": 758529
+      },
+      {
+        "_path": "share/openbabel/3.1.0/ringtyp.txt",
+        "path_type": "hardlink",
+        "sha256": "3a8ebab29679c243a2791720267f600428afc0be6dec151875ea00dc617837e8",
+        "sha256_in_prefix": "3a8ebab29679c243a2791720267f600428afc0be6dec151875ea00dc617837e8",
+        "size_in_bytes": 3003
+      },
+      {
+        "_path": "share/openbabel/3.1.0/space-groups.txt",
+        "path_type": "hardlink",
+        "sha256": "365650c92fb6aba77fc1c9771376fb920b06934ef344a0851ad27d22226d0e8b",
+        "sha256_in_prefix": "365650c92fb6aba77fc1c9771376fb920b06934ef344a0851ad27d22226d0e8b",
+        "size_in_bytes": 105886
+      },
+      {
+        "_path": "share/openbabel/3.1.0/splash.png",
+        "path_type": "hardlink",
+        "sha256": "ff5b3e16271806e5c86a377bd8551b7aa7a22a1cad93ac9647c96b68ffe8998a",
+        "sha256_in_prefix": "ff5b3e16271806e5c86a377bd8551b7aa7a22a1cad93ac9647c96b68ffe8998a",
+        "size_in_bytes": 53685
+      },
+      {
+        "_path": "share/openbabel/3.1.0/superatom.txt",
+        "path_type": "hardlink",
+        "sha256": "9155e6e4d2d735c8dab737973b7046022f08660405418bed2618e1583de6b792",
+        "sha256_in_prefix": "9155e6e4d2d735c8dab737973b7046022f08660405418bed2618e1583de6b792",
+        "size_in_bytes": 6704
+      },
+      {
+        "_path": "share/openbabel/3.1.0/svgformat.script",
+        "path_type": "hardlink",
+        "sha256": "9120ba817decb8d721e048e2742be53096e62434ca4c245f64141f502a7dd1b6",
+        "sha256_in_prefix": "9120ba817decb8d721e048e2742be53096e62434ca4c245f64141f502a7dd1b6",
+        "size_in_bytes": 1916
+      },
+      {
+        "_path": "share/openbabel/3.1.0/templates.sdf",
+        "path_type": "hardlink",
+        "sha256": "274e64a378d1720b8b695395ea067683fc2e0ad4a91426d80ab07c9996ee6999",
+        "sha256_in_prefix": "274e64a378d1720b8b695395ea067683fc2e0ad4a91426d80ab07c9996ee6999",
+        "size_in_bytes": 1849
+      },
+      {
+        "_path": "share/openbabel/3.1.0/torlib.txt",
+        "path_type": "hardlink",
+        "sha256": "f3b2df788ef0a7dca48cf7ed336bd4c3d72055b7ef95294a124a8e37f9791435",
+        "sha256_in_prefix": "f3b2df788ef0a7dca48cf7ed336bd4c3d72055b7ef95294a124a8e37f9791435",
+        "size_in_bytes": 9963
+      },
+      {
+        "_path": "share/openbabel/3.1.0/torsion.txt",
+        "path_type": "hardlink",
+        "sha256": "b7eff1925172c7732de433c70002f846ccc85c1c5104fcd441185b695d11a077",
+        "sha256_in_prefix": "b7eff1925172c7732de433c70002f846ccc85c1c5104fcd441185b695d11a077",
+        "size_in_bytes": 29869
+      },
+      {
+        "_path": "share/openbabel/3.1.0/types.txt",
+        "path_type": "hardlink",
+        "sha256": "164d02da573ed800441412380e163889bc7e0063657ea0f7cdc14e00c13965ac",
+        "sha256_in_prefix": "164d02da573ed800441412380e163889bc7e0063657ea0f7cdc14e00c13965ac",
+        "size_in_bytes": 10975
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "conda-forge/linux-64::openbabel==3.1.1=py312hbfe4552_9",
+  "sha256": "c1dda107511a20b043dfe94c562cf607833cbd29ffcf612ed4b65b5b04fa8a24",
+  "size": 5238529,
+  "subdir": "linux-64",
+  "timestamp": 1701377288000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/openbabel-3.1.1-py312hbfe4552_9.conda",
+  "version": "3.1.1"
+}

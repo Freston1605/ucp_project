@@ -1,0 +1,13 @@
+prefix=/home/franco/projects/test/ucp_project/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.12.3
+Description: libXML library version2.
+Requires.private:  icu-i18n
+Libs: -L${libdir} -lxml2 
+Libs.private:  -L/home/franco/projects/test/ucp_project/env/lib -lz -L/home/franco/projects/test/ucp_project/env/lib -llzma  -L/home/franco/projects/test/ucp_project/env/lib  -lm  
+Cflags: -I${includedir}/libxml2 -I/home/franco/projects/test/ucp_project/env/include 

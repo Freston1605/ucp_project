@@ -1,0 +1,8 @@
+prefix=/home/franco/projects/test/ucp_project/env
+includedir=${prefix}/include
+
+Name: cairo-xcb-shm
+Description: XCB/SHM functions for cairo graphics library
+Version: 1.18.0
+Requires: cairo, xcb-shm
+Cflags: -I${includedir}
