@@ -100,7 +100,7 @@ fi
 if [ -e "$OUTPUT_PATH" ]; then
     echo "OUTPUT_PATH exist"
 else
-    echo "OUTPUT_PATH exists already: OK"
+    echo "OUTPUT_PATH does not exists already: OK"
 fi
 
 
