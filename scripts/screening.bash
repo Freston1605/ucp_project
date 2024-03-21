@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# Script : screening.bash
+# 
 # Script Description:
 # This script automates the molecular screening process using the Autodock VINA tool.
 # It is designed to simulate the docking of a multitude of ligands against a specific protein receptor using one 
@@ -9,9 +10,9 @@
 # Arguments:
 #   protein: The basename of a protein model file in PDBQT format.
 #   ligands: The name of a folder containing all ligands in PDBQT format.
-#   configuration: The basename of a configuration file for VINA containing the grid and other docking parameters in txt format.
+#   configuration (optional): The basename of a configuration file for VINA containing the grid and other docking parameters in txt format.
 #       It expects arguments other than --receptor and --ligand but will not enforce it 
-#       and perhaps the configuration file can override the call to vina from this script.
+#       Unexpected behaviour can occurr as the configuration file mey override the call to vina from this script.
 
 # The script iterates over the ligands folder, finding each appropriate ligand using a wildcard *.pdbqt extension.
 
@@ -26,8 +27,8 @@
 #   bash screening.bash [protein] [ligands] [configuration]
 
 # Example:
-#   bash screening.bash 8g8wa flavonoids vina_config
-
+#   bash screening.bash 8g8wa flavonoids 
+#   bash screening.bash 8j1na flavonoids
 
 # Common folders
 
@@ -97,9 +98,9 @@ else
 fi
 
 if [ -e "$OUTPUT_PATH" ]; then
-    echo "OUTPUT_PATH does not exist: OK"
+    echo "OUTPUT_PATH exist"
 else
-    echo "OUTPUT_PATH exists already"
+    echo "OUTPUT_PATH exists already: OK"
 fi
 
 
@@ -117,13 +118,13 @@ for file in $LIGAND_PATH; do
     --receptor $PROTEIN_PATH \\
     --config $CONF_PATH \\
     --ligand $file \\
-    --out $OUTPUT_PATH/$base_name.out"
-    fi
+    --out $OUTPUT_PATH/$base_name/$base_name.out"
 	# Molecular Docking
     # mkdir -p $OUTPUT_PATH/$base_name
 	# vina\
 	# --receptor $PROTEIN_PATH \
 	# --config $CONF_PATH \
 	# --ligand $file \
-	# --out $OUTPUT_PATH/$base_name/$base_name.out
+	# --out $OUTPUT_PATH/$base_name/$base_name/$base_name.out
+    fi
 done
