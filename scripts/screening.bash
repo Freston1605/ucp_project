@@ -123,7 +123,7 @@ for file in $LIGAND_PATH; do
 	
     # Molecular Docking
      mkdir -p $OUTPUT_PATH/$base_name
-	 ./vina/vina \
+	 vina\
 	 --receptor $PROTEIN_PATH \
 	 --config $CONF_PATH \
 	 --ligand $file \
