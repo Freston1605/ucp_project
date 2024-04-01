@@ -27,19 +27,19 @@
 #   bash screening.bash [protein] [ligands] [configuration]
 
 # Example:
-#   bash screening.bash 8g8wa flavonoids 
-#   bash screening.bash 8j1na flavonoids
+#   bash scripts/screening.bash 8g8wa flavonoids 
+#   bash scripts/screening.bash 8j1na flavonoids
 
 # Common folders
 
 # Folder containing all proteins in PDBQT format
-PROTEIN_BASE=data/input/pdbqt
+PROTEIN_BASE=./data/input/pdbqt
 
 # Folder containing all ligands in PDBQT format
-LIGAND_BASE=data/output/pdbqt
+LIGAND_BASE=./data/output/pdbqt
 
 # Folder containing all configuration files for VINA
-CONF_BASE=data/input/conf/vina
+CONF_BASE=./data/input/conf/vina
 
 # Full path for the protein combining
 PROTEIN_PATH=$PROTEIN_BASE/${1}.pdbqt
@@ -62,7 +62,7 @@ fi
 CURRENT_DATE=$(date +%d-%m-%y)
 
 # Define the base directory where output will be stored.
-OUTPUT_BASE="/data/output/vina"
+OUTPUT_BASE="./data/output/vina"
 
 # Concatenate the full path for the output folder.
 OUTPUT_PATH="$OUTPUT_BASE/${1}/${2}/$CURRENT_DATE"
@@ -104,7 +104,6 @@ else
 fi
 
 
-
 # Loop over the files with the '.pdbqt' extension in the LIGAND_PATH folder
 for file in $LIGAND_PATH; do
 	# Check if the file exists
@@ -114,17 +113,21 @@ for file in $LIGAND_PATH; do
     base_name=$(basename $file .pdbqt)
     echo "Processing ligand: $file"
     echo "mkdir -p $OUTPUT_PATH/$base_name"
-    echo "vina \\
-    --receptor $PROTEIN_PATH \\
-    --config $CONF_PATH \\
-    --ligand $file \\
-    --out $OUTPUT_PATH/$base_name/$base_name.out"
-	# Molecular Docking
-    # mkdir -p $OUTPUT_PATH/$base_name
-	# vina\
-	# --receptor $PROTEIN_PATH \
-	# --config $CONF_PATH \
-	# --ligand $file \
-	# --out $OUTPUT_PATH/$base_name/$base_name/$base_name.out
+    
+    #Test 
+    #echo "vina \\
+    #--receptor $PROTEIN_PATH \\
+    #--config $CONF_PATH \\
+    #--ligand $file \\
+    #--out $OUTPUT_PATH/$base_name/$base_name.out"
+	
+    # Molecular Docking
+     mkdir -p $OUTPUT_PATH/$base_name
+	 ./vina/vina \
+	 --receptor $PROTEIN_PATH \
+	 --config $CONF_PATH \
+	 --ligand $file \
+	 --out "$OUTPUT_PATH/$base_name/$base_name.pdbqt" \
+     --log "$OUTPUT_PATH/$base_name/$base_name.log" 
     fi
 done
