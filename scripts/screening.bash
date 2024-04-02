@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# Script : screening.bash
+# 
 # Script Description:
 # This script automates the molecular screening process using the Autodock VINA tool.
 # It is designed to simulate the docking of a multitude of ligands against a specific protein receptor using one 
@@ -9,9 +10,9 @@
 # Arguments:
 #   protein: The basename of a protein model file in PDBQT format.
 #   ligands: The name of a folder containing all ligands in PDBQT format.
-#   configuration: The basename of a configuration file for VINA containing the grid and other docking parameters in txt format.
+#   configuration (optional): The basename of a configuration file for VINA containing the grid and other docking parameters in txt format.
 #       It expects arguments other than --receptor and --ligand but will not enforce it 
-#       and perhaps the configuration file can override the call to vina from this script.
+#       Unexpected behaviour can occurr as the configuration file mey override the call to vina from this script.
 
 # The script iterates over the ligands folder, finding each appropriate ligand using a wildcard *.pdbqt extension.
 
@@ -26,19 +27,19 @@
 #   bash screening.bash [protein] [ligands] [configuration]
 
 # Example:
-#   bash screening.bash 8g8wa flavonoids vina_config
-
+#   bash scripts/screening.bash 8g8wa flavonoids 
+#   bash scripts/screening.bash 8j1na flavonoids
 
 # Common folders
 
 # Folder containing all proteins in PDBQT format
-PROTEIN_BASE=data/input/pdbqt
+PROTEIN_BASE=./data/input/pdbqt
 
 # Folder containing all ligands in PDBQT format
-LIGAND_BASE=data/output/pdbqt
+LIGAND_BASE=./data/output/pdbqt
 
 # Folder containing all configuration files for VINA
-CONF_BASE=data/input/conf/vina
+CONF_BASE=./data/input/conf/vina
 
 # Full path for the protein combining
 PROTEIN_PATH=$PROTEIN_BASE/${1}.pdbqt
@@ -61,7 +62,7 @@ fi
 CURRENT_DATE=$(date +%d-%m-%y)
 
 # Define the base directory where output will be stored.
-OUTPUT_BASE="/data/output/vina"
+OUTPUT_BASE="./data/output/vina"
 
 # Concatenate the full path for the output folder.
 OUTPUT_PATH="$OUTPUT_BASE/${1}/${2}/$CURRENT_DATE"
@@ -97,11 +98,10 @@ else
 fi
 
 if [ -e "$OUTPUT_PATH" ]; then
-    echo "OUTPUT_PATH does not exist: OK"
+    echo "OUTPUT_PATH exist"
 else
-    echo "OUTPUT_PATH exists already"
+    echo "OUTPUT_PATH does not exists already: OK"
 fi
-
 
 
 # Loop over the files with the '.pdbqt' extension in the LIGAND_PATH folder
@@ -113,17 +113,21 @@ for file in $LIGAND_PATH; do
     base_name=$(basename $file .pdbqt)
     echo "Processing ligand: $file"
     echo "mkdir -p $OUTPUT_PATH/$base_name"
-    echo "vina \\
-    --receptor $PROTEIN_PATH \\
-    --config $CONF_PATH \\
-    --ligand $file \\
-    --out $OUTPUT_PATH/$base_name.out"
+    
+    #Test 
+    #echo "vina \\
+    #--receptor $PROTEIN_PATH \\
+    #--config $CONF_PATH \\
+    #--ligand $file \\
+    #--out $OUTPUT_PATH/$base_name/$base_name.out"
+	
+    # Molecular Docking
+     mkdir -p $OUTPUT_PATH/$base_name
+	 vina\
+	 --receptor $PROTEIN_PATH \
+	 --config $CONF_PATH \
+	 --ligand $file \
+	 --out "$OUTPUT_PATH/$base_name/$base_name.pdbqt" \
+     --log "$OUTPUT_PATH/$base_name/$base_name.log" 
     fi
-	# Molecular Docking
-    # mkdir -p $OUTPUT_PATH/$base_name
-	# vina\
-	# --receptor $PROTEIN_PATH \
-	# --config $CONF_PATH \
-	# --ligand $file \
-	# --out $OUTPUT_PATH/$base_name/$base_name.out
 done
